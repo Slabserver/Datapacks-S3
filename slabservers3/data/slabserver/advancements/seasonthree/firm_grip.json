@@ -16,7 +16,7 @@
     },
     "criteria": {
         "enterStronghold": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "position": {
                     "x": {

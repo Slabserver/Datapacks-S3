@@ -16,7 +16,7 @@
     },
     "criteria": {
         "enterTownHall": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "dimension": "minecraft:overworld",
                 "position": {
@@ -36,7 +36,7 @@
             }
         },
         "enterMuseum": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "dimension": "minecraft:overworld",
                 "position": {
@@ -56,7 +56,7 @@
             }
         },
         "enterPortal": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "dimension": "minecraft:overworld",
                 "position": {
@@ -76,7 +76,7 @@
             }
         },
         "enterMail": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "dimension": "minecraft:overworld",
                 "position": {

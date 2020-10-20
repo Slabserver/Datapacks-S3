@@ -16,7 +16,7 @@
     },
     "criteria": {
         "ironFarm": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "dimension": "minecraft:the_nether",
                 "position": {
@@ -36,7 +36,7 @@
             }
         },
         "treeFarm": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "dimension": "minecraft:overworld",
                 "position": {
@@ -56,7 +56,7 @@
             }
         },
         "witchFarm": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "dimension": "minecraft:overworld",
                 "position": {
@@ -76,7 +76,7 @@
             }
         },
         "drownedFarm": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "dimension": "minecraft:overworld",
                 "position": {
@@ -96,7 +96,7 @@
             }
         },
         "endermanFarm": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "dimension": "minecraft:the_end",
                 "position": {
@@ -116,7 +116,7 @@
             }
         },
         "witherSkeletonFarm": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "dimension": "minecraft:the_nether",
                 "position": {
@@ -136,7 +136,7 @@
             }
         },
         "blazeFarm": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "dimension": "minecraft:the_nether",
                 "position": {
@@ -156,7 +156,7 @@
             }
         },
         "goldFarm": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "dimension": "minecraft:the_nether",
                 "position": {

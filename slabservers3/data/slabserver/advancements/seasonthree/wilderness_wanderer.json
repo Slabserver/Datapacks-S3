@@ -16,7 +16,7 @@
     },
     "criteria": {
         "enterPlains": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "biome": "plains"
@@ -24,7 +24,7 @@
             }
         },
         "enterForest": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "biome": "forest"
@@ -32,7 +32,7 @@
             }
         },
         "enterBirchForest": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "biome": "birch_forest"
@@ -40,7 +40,7 @@
             }
         },
         "enterWoodedHills": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "biome": "wooded_hills"
@@ -48,7 +48,7 @@
             }
         },
         "enterDarkForest": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "biome": "dark_forest"
@@ -56,7 +56,7 @@
             }
         },
         "enterSwampland": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "biome": "swamp"
@@ -64,7 +64,7 @@
             }
         },
         "enterSavanna": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "biome": "savanna"
@@ -72,7 +72,7 @@
             }
         },
         "enterSavannaPlateau": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "biome": "savanna_plateau"
@@ -80,7 +80,7 @@
             }
         },
         "enterMountains": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "biome": "mountains"
@@ -88,7 +88,7 @@
             }
         },
         "enterWoodedMountains": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "biome": "wooded_mountains"
@@ -96,7 +96,7 @@
             }
         },
         "enterSnowyTundra": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "biome": "snowy_tundra"
@@ -104,7 +104,7 @@
             }
         },
         "enterSnowyMountains": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "biome": "snowy_mountains"
@@ -112,7 +112,7 @@
             }
         },
         "enterTaiga": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "biome": "taiga"
@@ -120,7 +120,7 @@
             }
         },
         "enterTaigaHills": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "biome": "taiga_hills"
@@ -128,7 +128,7 @@
             }
         },
         "enterSnowyTaiga": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "biome": "snowy_taiga"
@@ -136,7 +136,7 @@
             }
         },
         "enterSnowyTaigaHills": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "biome": "snowy_taiga_hills"
@@ -144,7 +144,7 @@
             }
         },
         "enterGiantTreeTaiga": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "biome": "giant_tree_taiga"
@@ -152,7 +152,7 @@
             }
         },
         "enterGiantTreeTaigaHills": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "biome": "giant_tree_taiga_hills"
@@ -160,7 +160,7 @@
             }
         },
         "enterDesert": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "biome": "desert"
@@ -168,7 +168,7 @@
             }
         },
         "enterDesertHills": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "biome": "desert_hills"
@@ -176,7 +176,7 @@
             }
         },
         "enterDesertLakes": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "biome": "desert_lakes"

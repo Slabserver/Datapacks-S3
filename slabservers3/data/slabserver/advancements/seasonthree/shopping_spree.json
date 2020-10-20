@@ -16,7 +16,7 @@
     },
     "criteria": {
         "enterShopping": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "biome": "minecraft:mushroom_fields",
                 "position": {

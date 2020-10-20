@@ -16,7 +16,7 @@
     },
     "criteria": {
         "enterWelcomeBooth": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "dimension": "minecraft:overworld",
 				"position": {

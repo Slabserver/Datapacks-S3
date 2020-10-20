@@ -16,7 +16,7 @@
     },
     "criteria": {
         "openLecternOne": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "block": {
@@ -40,7 +40,7 @@
             }
         },
         "openLecternTwo": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "location": {
                     "block": {

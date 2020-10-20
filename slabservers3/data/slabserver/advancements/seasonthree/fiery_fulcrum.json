@@ -16,7 +16,7 @@
     },
     "criteria": {
         "enterHub": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "dimension": "minecraft:the_nether",
                 "position": {
