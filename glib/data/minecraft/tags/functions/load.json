@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "glib:load/glib",
+    "glib:load/randomizer",
+    "glib:load/tools"
+  ]
+}

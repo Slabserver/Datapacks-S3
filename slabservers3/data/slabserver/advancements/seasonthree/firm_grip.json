@@ -1,0 +1,39 @@
+{
+    "display": {
+        "title": {
+            "text": "A Firm Grip"
+        },
+        "description": {
+            "text": "Find the community Stronghold"
+        },
+        "icon": {
+            "item": "minecraft:iron_bars"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "enterStronghold": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "position": {
+                    "x": {
+                        "min": -299,
+                        "max": -269
+                    },
+                    "y": {
+                        "min": 32,
+                        "max": 47
+                    },
+                    "z": {
+                        "min": 1456,
+                        "max": 1487
+                    }
+                }
+            }
+        }
+    },
+    "parent": "slabserver:seasonthree/confusing_cardinals"
+}

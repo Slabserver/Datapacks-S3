@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Getting Started"
+        },
+        "description": {
+            "text": "Visit the Welcome Booth"
+        },
+        "icon": {
+            "item": "minecraft:book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "enterWelcomeBooth": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "minecraft:overworld",
+				"position": {
+                    "x": {
+                        "min": 251,
+                        "max": 272
+                    },
+                    "y": {
+                        "min": 70,
+                        "max": 78
+                    },
+                    "z": {
+                        "min": -31,
+                        "max": -10
+                    }
+                }
+            }
+        }
+    },
+    "parent": "slabserver:seasonthree/root"
+}

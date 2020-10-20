@@ -1,0 +1,1 @@
+execute in the_nether run tp @s 0 116 0

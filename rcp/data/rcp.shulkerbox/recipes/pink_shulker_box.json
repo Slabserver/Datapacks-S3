@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shapeless",
+  "group": "box",
+  "ingredients": [
+    {
+      "item": "minecraft:pink_dye"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pink_shulker_box"
+  }
+}

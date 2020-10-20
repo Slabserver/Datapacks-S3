@@ -1,0 +1,83 @@
+{
+    "criteria": {
+        "netherFortress": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "fortress"
+            }
+        },
+        "endCity": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "endcity"
+            }
+        },
+        "mineshaft": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "mineshaft"
+            }
+        },
+        "oceanMonument": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "monument"
+            }
+        },
+        "stronghold": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "stronghold"
+            }
+        },
+        "swampHut": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "swamp_hut"
+            }
+        },
+        "desertPyramid": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "desert_pyramid"
+            }
+        },
+        "jungleTemple": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "jungle_pyramid"
+            }
+        },
+        "village": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "village"
+            }
+        },
+        "pillagerOutpost": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "pillager_outpost"
+            }
+        },
+        "shipwreck": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "shipwreck"
+            }
+        },
+        "underwaterRuin": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "ocean_ruin"
+            }
+        },
+        "bastionRemnant": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "bastion_remnant"
+            }
+        }
+    },
+    "parent": "slabserver:hidden/root"
+}

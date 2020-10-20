@@ -1,0 +1,180 @@
+{
+    "display": {
+        "title": {
+            "text": "Social Spawners"
+        },
+        "description": {
+            "text": "Visit the Communal Farms of the World, listed in Town Hall"
+        },
+        "icon": {
+            "item": "minecraft:spawner"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "ironFarm": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "minecraft:the_nether",
+                "position": {
+                    "x": {
+                        "min": 299,
+                        "max": 315
+                    },
+                    "y": {
+                        "min": 75,
+                        "max": 80
+                    },
+                    "z": {
+                        "min": -58,
+                        "max": -40
+                    }
+                }
+            }
+        },
+        "treeFarm": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "minecraft:overworld",
+                "position": {
+                    "x": {
+                        "min": -543,
+                        "max": -613
+                    },
+                    "y": {
+                        "min": 64,
+                        "max": 70
+                    },
+                    "z": {
+                        "min": -112,
+                        "max": -40
+                    }
+                }
+            }
+        },
+        "witchFarm": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "minecraft:overworld",
+                "position": {
+                    "x": {
+                        "min": -669,
+                        "max": -470
+                    },
+                    "y": {
+                        "min": 5,
+                        "max": 80
+                    },
+                    "z": {
+                        "min": 1370,
+                        "max": 1570
+                    }
+                }
+            }
+        },
+        "drownedFarm": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "minecraft:overworld",
+                "position": {
+                    "x": {
+                        "min": -384,
+                        "max": -377
+                    },
+                    "y": {
+                        "min": 187,
+                        "max": 196
+                    },
+                    "z": {
+                        "min": 1489,
+                        "max": 1496
+                    }
+                }
+            }
+        },
+        "endermanFarm": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "minecraft:the_end",
+                "position": {
+                    "x": {
+                        "min": 269,
+                        "max": 277
+                    },
+                    "y": {
+                        "min": 48,
+                        "max": 52
+                    },
+                    "z": {
+                        "min": -5,
+                        "max": 5
+                    }
+                }
+            }
+        },
+        "witherSkeletonFarm": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "minecraft:the_nether",
+                "position": {
+                    "x": {
+                        "min": -161,
+                        "max": -120
+                    },
+                    "y": {
+                        "min": 52,
+                        "max": 55
+                    },
+                    "z": {
+                        "min": 193,
+                        "max": 213
+                    }
+                }
+            }
+        },
+        "blazeFarm": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "minecraft:the_nether",
+                "position": {
+                    "x": {
+                        "min": 151,
+                        "max": 171
+                    },
+                    "y": {
+                        "min": 67,
+                        "max": 71
+                    },
+                    "z": {
+                        "min": 155,
+                        "max": 175
+                    }
+                }
+            }
+        },
+        "goldFarm": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "minecraft:the_nether",
+                "position": {
+                    "x": {
+                        "min": 222,
+                        "max": 247
+                    },
+                    "y": {
+                        "min": 223,
+                        "max": 229
+                    },
+                    "z": {
+                        "min": 170,
+                        "max": 178
+                    }
+                }
+            }
+        }
+    },
+    "parent": "slabserver:seasonthree/shopping_spree"
+}

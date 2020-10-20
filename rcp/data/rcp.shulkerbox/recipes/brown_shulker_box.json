@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shapeless",
+  "group": "box",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_dye"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    }
+  ],
+  "result": {
+    "item": "minecraft:brown_shulker_box"
+  }
+}

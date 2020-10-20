@@ -1,0 +1,100 @@
+{
+    "display": {
+        "title": {
+            "text": "Confusing Cardinals"
+        },
+        "description": {
+            "text": "Locate each of the Nether Hub tunnels"
+        },
+        "icon": {
+            "item": "minecraft:compass"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "redTunnel": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "minecraft:the_nether",
+                "position": {
+                    "x": {
+                        "min": -20,
+                        "max": -13
+                    },
+                    "y": {
+                        "min": 110,
+                        "max": 120
+                    },
+                    "z": {
+                        "min": -2,
+                        "max": 2
+                    }
+                }
+            }
+        },
+        "yellowTunnel": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "minecraft:the_nether",
+                "position": {
+                    "x": {
+                        "min": -2,
+                        "max": 2
+                    },
+                    "y": {
+                        "min": 110,
+                        "max": 120
+                    },
+                    "z": {
+                        "min": 16,
+                        "max": 23
+                    }
+                }
+            }
+        },
+        "blueTunnel": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "minecraft:the_nether",
+                "position": {
+                    "x": {
+                        "min": -2,
+                        "max": 2
+                    },
+                    "y": {
+                        "min": 110,
+                        "max": 120
+                    },
+                    "z": {
+                        "min": -23,
+                        "max": -16
+                    }
+                }
+            }
+        },
+        "greenTunnel": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "minecraft:the_nether",
+                "position": {
+                    "x": {
+                        "min": 119,
+                        "max": 126
+                    },
+                    "y": {
+                        "min": 110,
+                        "max": 120
+                    },
+                    "z": {
+                        "min": -2,
+                        "max": 2
+                    }
+                }
+            }
+        }
+    },
+    "parent": "slabserver:seasonthree/fiery_fulcrum"
+}

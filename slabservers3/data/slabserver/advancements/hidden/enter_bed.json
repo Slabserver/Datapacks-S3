@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "enterBed": {
+            "trigger": "minecraft:slept_in_bed"
+        }
+    },
+    "rewards": {
+		"function": "slabserver:advancements/enterbed"
+	},
+    "parent": "slabserver:hidden/root"
+}

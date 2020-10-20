@@ -1,0 +1,4 @@
+#Grants Kosupure
+
+execute if entity @s[nbt={Inventory: [{Slot: 100b, id: "minecraft:diamond_boots"},{Slot: 101b, id: "minecraft:leather_leggings"},{Slot: 102b, id: "minecraft:leather_chestplate"},{Slot: 103b, id: "minecraft:player_head", tag: {SkullOwner: {Name: "Etho"}}}]}] unless entity @s[nbt=!{Inventory:[{Slot:101b, tag:{display:{color:4673362}}}]},nbt=!{Inventory:[{Slot:101b, tag:{display:{color:3949738}}}]}] unless entity @s[nbt=!{Inventory:[{Slot:102b, tag:{display:{color:8439583}}}]},nbt=!{Inventory:[{Slot:102b, tag:{display:{color:6192150}}}]}] run advancement grant @s only slabserver:seasonthree/kosupure
+advancement revoke @s only slabserver:hidden/mimic_etho

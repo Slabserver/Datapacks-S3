@@ -1,0 +1,1 @@
+advancement grant @p[distance=..16] only slabserver:seasonthree/ender_evolution

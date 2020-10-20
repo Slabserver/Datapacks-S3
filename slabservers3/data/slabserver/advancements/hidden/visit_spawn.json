@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "spawn": {
+            "trigger": "minecraft:location",
+			"conditions": {
+				"dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 250,
+                        "max": 270
+                    },
+                    "z": {
+                        "min": -100,
+                        "max": -80
+                    }
+				}
+			}
+        }
+    },
+	"rewards": {
+		"function": "slabserver:advancements/whereandbackagain"
+	},
+    "parent": "slabserver:hidden/root"
+}

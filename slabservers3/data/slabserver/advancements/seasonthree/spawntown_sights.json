@@ -1,0 +1,100 @@
+{
+    "display": {
+        "title": {
+            "text": "Spawntown Sights"
+        },
+        "description": {
+            "text": "Find the Town Hall, Post Office, Slab Museum, & Nether Portal Tree at Spawn"
+        },
+        "icon": {
+            "item": "minecraft:crafting_table"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "enterTownHall": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "minecraft:overworld",
+                "position": {
+                    "x": {
+                        "min": 315,
+                        "max": 365
+                    },
+                    "y": {
+                        "min": 79,
+                        "max": 89
+                    },
+                    "z": {
+                        "min": -129,
+                        "max": -91
+                    }
+                }
+            }
+        },
+        "enterMuseum": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "minecraft:overworld",
+                "position": {
+                    "x": {
+                        "min": 173,
+                        "max": 200
+                    },
+                    "y": {
+                        "min": 58,
+                        "max": 85
+                    },
+                    "z": {
+                        "min": 101,
+                        "max": 172
+                    }
+                }
+            }
+        },
+        "enterPortal": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "minecraft:overworld",
+                "position": {
+                    "x": {
+                        "min": 257,
+                        "max": 265
+                    },
+                    "y": {
+                        "min": 78,
+                        "max": 92
+                    },
+                    "z": {
+                        "min": -107,
+                        "max": -96
+                    }
+                }
+            }
+        },
+        "enterMail": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "minecraft:overworld",
+                "position": {
+                    "x": {
+                        "min": 388,
+                        "max": 426
+                    },
+                    "y": {
+                        "min": 30,
+                        "max": 84
+                    },
+                    "z": {
+                        "min": -64,
+                        "max": -47
+                    }
+                }
+            }
+        }
+    },
+    "parent": "slabserver:seasonthree/server_rules"
+}

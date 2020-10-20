@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "slabserver:misc/updatescores",
+    "slabserver:misc/updateteams"
+  ]
+}
