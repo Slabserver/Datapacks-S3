@@ -120,6 +120,42 @@ execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matche
 execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_dark_oak_wood[axis=y] replace minecraft:stripped_dark_oak_wood
 execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_dark_oak_wood[axis=x] replace minecraft:stripped_dark_oak_wood
 
+#Crimson Wood
+#	Stems
+execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crimson_stem[axis=z] replace minecraft:crimson_stem
+execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crimson_stem[axis=y] replace minecraft:crimson_stem
+execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crimson_stem[axis=x] replace minecraft:crimson_stem
+#	Hyphae
+execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crimson_hyphae[axis=z] replace minecraft:crimson_hyphae
+execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crimson_hyphae[axis=y] replace minecraft:crimson_hyphae
+execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crimson_hyphae[axis=x] replace minecraft:crimson_hyphae
+#	Stripped Stems
+execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_crimson_stem[axis=z] replace minecraft:stripped_crimson_stem
+execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_crimson_stem[axis=y] replace minecraft:stripped_crimson_stem
+execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_crimson_stem[axis=x] replace minecraft:stripped_crimson_stem
+#	Stripped Hyphae
+execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_crimson_stem[axis=z] replace minecraft:stripped_crimson_stem
+execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_crimson_stem[axis=y] replace minecraft:stripped_crimson_stem
+execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_crimson_stem[axis=x] replace minecraft:stripped_crimson_stem
+
+#Warped Wood
+#	Stems
+execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:warped_stem[axis=z] replace minecraft:warped_stem
+execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:warped_stem[axis=y] replace minecraft:warped_stem
+execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:warped_stem[axis=x] replace minecraft:warped_stem
+#	Hyphae
+execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:warped_hyphae[axis=z] replace minecraft:warped_hyphae
+execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:warped_hyphae[axis=y] replace minecraft:warped_hyphae
+execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:warped_hyphae[axis=x] replace minecraft:warped_hyphae
+#	Stripped Stems
+execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_warped_stem[axis=z] replace minecraft:stripped_warped_stem
+execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_warped_stem[axis=y] replace minecraft:stripped_warped_stem
+execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_warped_stem[axis=x] replace minecraft:stripped_warped_stem
+#	Stripped Hyphae
+execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_warped_stem[axis=z] replace minecraft:stripped_warped_stem
+execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_warped_stem[axis=y] replace minecraft:stripped_warped_stem
+execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_warped_stem[axis=x] replace minecraft:stripped_warped_stem
+
 #Other pillars
 #	Quartz
 execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:quartz_pillar[axis=z] replace minecraft:quartz_pillar
@@ -137,6 +173,14 @@ execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matche
 execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:bone_block[axis=z] replace minecraft:bone_block
 execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:bone_block[axis=y] replace minecraft:bone_block
 execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:bone_block[axis=x] replace minecraft:bone_block
+#	Basalt
+execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:basalt[axis=z] replace minecraft:basalt
+execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:basalt[axis=y] replace minecraft:basalt
+execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:basalt[axis=x] replace minecraft:basalt
+#	Polished Basalt
+execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:polished_basalt[axis=z] replace minecraft:polished_basalt
+execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:polished_basalt[axis=y] replace minecraft:polished_basalt
+execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:polished_basalt[axis=x] replace minecraft:polished_basalt
 
 #If failed to rotate, mark for failure
 execute as @s[scores={RotationSuccess=0}] run scoreboard players set @s RotationSuccess -1

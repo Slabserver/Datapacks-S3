@@ -104,6 +104,42 @@ execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess 
 execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_dark_oak_wood[axis=y] replace minecraft:stripped_dark_oak_wood[axis=x]
 execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_dark_oak_wood[axis=x] replace minecraft:stripped_dark_oak_wood[axis=z]
 
+#Crimson
+#	Stems
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crimson_stem[axis=z] replace minecraft:crimson_stem[axis=y]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crimson_stem[axis=y] replace minecraft:crimson_stem[axis=x]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crimson_stem[axis=x] replace minecraft:crimson_stem[axis=z]
+#	Hyphae
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crimson_hyphae[axis=z] replace minecraft:crimson_hyphae[axis=y]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crimson_hyphae[axis=y] replace minecraft:crimson_hyphae[axis=x]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crimson_hyphae[axis=x] replace minecraft:crimson_hyphae[axis=z]
+#	Stripped Stems
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_crimson_stem[axis=z] replace minecraft:stripped_crimson_stem[axis=y]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_crimson_stem[axis=y] replace minecraft:stripped_crimson_stem[axis=x]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_crimson_stem[axis=x] replace minecraft:stripped_crimson_stem[axis=z]
+#	Stripped Hyphae
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_crimson_hyphae[axis=z] replace minecraft:stripped_crimson_hyphae[axis=y]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_crimson_hyphae[axis=y] replace minecraft:stripped_crimson_hyphae[axis=x]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_crimson_hyphae[axis=x] replace minecraft:stripped_crimson_hyphae[axis=z]
+
+#Warped
+#	Stems
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:warped_stem[axis=z] replace minecraft:warped_stem[axis=y]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:warped_stem[axis=y] replace minecraft:warped_stem[axis=x]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:warped_stem[axis=x] replace minecraft:warped_stem[axis=z]
+#	Hyphae
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:warped_hyphae[axis=z] replace minecraft:warped_hyphae[axis=y]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:warped_hyphae[axis=y] replace minecraft:warped_hyphae[axis=x]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:warped_hyphae[axis=x] replace minecraft:warped_hyphae[axis=z]
+#	Stripped Stems
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_warped_stem[axis=z] replace minecraft:stripped_warped_stem[axis=y]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_warped_stem[axis=y] replace minecraft:stripped_warped_stem[axis=x]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_warped_stem[axis=x] replace minecraft:stripped_warped_stem[axis=z]
+#	Stripped Hyphae
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_warped_hyphae[axis=z] replace minecraft:stripped_warped_hyphae[axis=y]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_warped_hyphae[axis=y] replace minecraft:stripped_warped_hyphae[axis=x]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_warped_hyphae[axis=x] replace minecraft:stripped_warped_hyphae[axis=z]
+
 #Other pillars
 #	Quartz
 execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:quartz_pillar[axis=z] replace minecraft:quartz_pillar[axis=y]
@@ -121,3 +157,11 @@ execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess 
 execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:bone_block[axis=z] replace minecraft:bone_block[axis=y]
 execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:bone_block[axis=y] replace minecraft:bone_block[axis=x]
 execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:bone_block[axis=x] replace minecraft:bone_block[axis=z]
+#	Basalt
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:basalt[axis=z] replace minecraft:basalt[axis=y]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:basalt[axis=y] replace minecraft:basalt[axis=x]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:basalt[axis=x] replace minecraft:basalt[axis=z]
+#	Polished Basalt
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:polished_basalt[axis=z] replace minecraft:polished_basalt[axis=y]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:polished_basalt[axis=y] replace minecraft:polished_basalt[axis=x]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:polished_basalt[axis=x] replace minecraft:polished_basalt[axis=z]
