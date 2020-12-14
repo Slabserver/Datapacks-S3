@@ -13,8 +13,8 @@ summon minecraft:item_frame 2859.50 35.50 2762.03 {Invulnerable:1b, Facing: 3b, 
 execute if score EnableRestarts Tunnel matches 1 run setblock 2859 35 2764 minecraft:oak_wall_sign[facing=north]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"execute if score EnableRestarts Tunnel matches 1 run function tunnel:restart"}}',Text2:'{"text":"Click to","clickEvent":{"action":"run_command","value":"setblock ~ ~ ~ minecraft:air"},"bold":true}',Text3:'{"text":"restart Tunnel","bold":true}'}
 
 #Check to break wall
-schedule function tunnel:mancave/wall 10
-schedule function tunnel:mancave/itemframe 10
+execute in overworld run schedule function tunnel:mancave/wall 10
+execute in overworld run schedule function tunnel:mancave/itemframe 10
 
 #Verbosity
 tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:mancave/generate' as: "},{"selector":"@s"}]

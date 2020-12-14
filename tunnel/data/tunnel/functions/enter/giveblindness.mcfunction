@@ -17,7 +17,7 @@ execute in minecraft:the_end positioned 2829 21 2735 run kill @e[dx=44,dy=31,dz=
 #execute unless score CurrentLevel Tunnel matches 500 in the_end positioned 2859 33 2763 run function tunnel:enter/clearitems
 
 #Reschedule
-execute if entity @a[scores={TunnelOccupant=1..}] run schedule function tunnel:enter/giveblindness 1
+execute if entity @a[scores={TunnelOccupant=1..}] in overworld run schedule function tunnel:enter/giveblindness 1
 
 #Verbosity
 tellraw @a[tag=TunnelDebug] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:enter/giveblindness' as: "},{"selector":"@s"}]

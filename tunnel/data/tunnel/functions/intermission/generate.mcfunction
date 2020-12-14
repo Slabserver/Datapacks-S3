@@ -11,7 +11,7 @@ scoreboard players set Intermission Tunnel 1
 summon minecraft:item_frame 2859.50 35.50 2770.03 {Invulnerable:1b, Facing: 3b, Item: {id: "minecraft:spruce_door", Count: 1b, tag: {display: {Name: '{"text":"???"}'}}}, ItemDropChance: 1.0f, Fire: -1s, TileY: 35, TileX: 2859, TileZ: 2762, Tags: ["TunnelFrame"]}
 
 #Check for item frame rotation
-schedule function tunnel:intermission/itemframe 10
+execute in overworld run schedule function tunnel:intermission/itemframe 10
 
 #Verbosity
 tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:intermission/generate' as: "},{"selector":"@s"}]

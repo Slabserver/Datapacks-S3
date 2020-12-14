@@ -6,7 +6,7 @@ execute in the_end run setblock 2852 24 2773 minecraft:redstone_wall_torch[facin
 execute in the_end run setblock 2853 24 2772 minecraft:redstone_wall_torch[facing=east]
 
 #Add extra particles
-execute if score CurrentLevel Tunnel matches 330..340 run schedule function tunnel:stage3/futuredoorsmokes 10
+execute if score CurrentLevel Tunnel matches 330..340 in overworld run schedule function tunnel:stage3/futuredoorsmokes 10
 execute if score CurrentLevel Tunnel matches 330..350 run setblock 2854 24 2773 minecraft:campfire
 execute if score CurrentLevel Tunnel matches 330..350 run setblock 2854 24 2774 minecraft:campfire
 execute if score CurrentLevel Tunnel matches 330..350 run setblock 2855 24 2772 minecraft:campfire

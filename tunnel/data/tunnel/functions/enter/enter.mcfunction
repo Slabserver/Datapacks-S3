@@ -10,7 +10,7 @@ effect give @s minecraft:instant_health 20 0 true
 effect give @s minecraft:hunger 100 255 true
 effect give @s minecraft:blindness 32 1 true
 effect give @s minecraft:slow_falling 2 1 true
-schedule function tunnel:enter/giveblindness 2
+execute in overworld run schedule function tunnel:enter/giveblindness 2
 
 #If tunnel is unoccupied, generate level
 execute unless entity @a[scores={TunnelOccupant=1..}] in the_end run function tunnel:enter/generate
@@ -23,7 +23,7 @@ execute unless score CurrentLevel Tunnel matches 500 run advancement grant @s on
 execute unless score CurrentLevel Tunnel matches 500 unless entity @s[nbt={Inventory:[{id:"minecraft:chorus_fruit"}]}] run give @s minecraft:chorus_fruit{display:{Name:'{"text":"Emergency Escape"}'}}
 
 #If restarts are enabled, set to final level after period of inactivity (2 hours)
-execute if score EnableRestarts Tunnel matches 1 run schedule function tunnel:complete 144000
+execute if score EnableRestarts Tunnel matches 1 in overworld run schedule function tunnel:complete 144000
 
 #Entrance event
 execute in the_end run function #tunnel:entrance

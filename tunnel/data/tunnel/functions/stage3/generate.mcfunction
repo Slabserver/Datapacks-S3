@@ -4,9 +4,9 @@
 execute unless score Unlocked Tunnel matches 3.. run function tunnel:intermission/generate
 
 #Play ambient sounds between the present and the future
-execute if score CurrentLevel Tunnel matches 310..350 run schedule function tunnel:stage3/ambientdoor 275
-execute if score CurrentLevel Tunnel matches 310..350 run schedule function tunnel:stage3/ambientlevel 300
-execute if score CurrentLevel Tunnel matches 360 run schedule function tunnel:stage3/ambientloop 10
+execute if score CurrentLevel Tunnel matches 310..350 in overworld run schedule function tunnel:stage3/ambientdoor 275
+execute if score CurrentLevel Tunnel matches 310..350 in overworld run schedule function tunnel:stage3/ambientlevel 300
+execute if score CurrentLevel Tunnel matches 360 in overworld run schedule function tunnel:stage3/ambientloop 10
 
 #Barrier to prevent seeing into the past
 fill 2830 22 2758 2873 50 2758 minecraft:black_concrete
@@ -22,7 +22,7 @@ execute if score CurrentLevel Tunnel matches 340 run function tunnel:stage3/leve
 execute if score CurrentLevel Tunnel matches 350 run function tunnel:stage3/level5
 execute if score CurrentLevel Tunnel matches 360 run function tunnel:stage3/level6
 
-schedule function tunnel:stage3/railcheck 10
+execute in overworld run schedule function tunnel:stage3/railcheck 10
 
 #Verbosity
 tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage3/generate' as: "},{"selector":"@s"}]

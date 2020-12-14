@@ -5,10 +5,10 @@ setblock 2848 23 2768 minecraft:redstone_block
 scoreboard players set CurrentLevel Tunnel 130
 scoreboard players set NextLevel Tunnel 140
 
-schedule function tunnel:stage1/buttonladder 10
-schedule function tunnel:stage1/buttonwater 10
-schedule function tunnel:stage1/buttonshriek 10
-schedule function tunnel:stage1/buttonshriekpresent 10
+execute in overworld run schedule function tunnel:stage1/buttonladder 10
+execute in overworld run schedule function tunnel:stage1/buttonwater 10
+execute in overworld run schedule function tunnel:stage1/buttonshriek 10
+execute in overworld run schedule function tunnel:stage1/buttonshriekpresent 10
 
 #Verbosity
 tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage1/level3' as: "},{"selector":"@s"}]

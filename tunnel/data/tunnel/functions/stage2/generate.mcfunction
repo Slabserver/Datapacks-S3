@@ -4,8 +4,8 @@
 execute unless score Unlocked Tunnel matches 2.. run function tunnel:intermission/generate
 
 #Play ambient sounds between the present and the future
-schedule function tunnel:stage2/ambientdoor 250
-schedule function tunnel:stage2/ambientlevel 300
+execute in overworld run schedule function tunnel:stage2/ambientdoor 250
+execute in overworld run schedule function tunnel:stage2/ambientlevel 300
 
 #Barrier to prevent seeing into the past
 fill 2830 22 2758 2873 50 2758 minecraft:black_concrete

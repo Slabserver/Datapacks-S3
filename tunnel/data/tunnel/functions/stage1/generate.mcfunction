@@ -1,11 +1,11 @@
 #Generate stage 1
 
 #Play ambient sound behind the door to the future
-schedule function tunnel:stage1/ambientdoor 10
-schedule function tunnel:stage1/ambientlevel 200
+execute in overworld run schedule function tunnel:stage1/ambientdoor 10
+execute in overworld run schedule function tunnel:stage1/ambientlevel 200
 
 #ambient smoke
-schedule function tunnel:stage1/smokegap 20
+execute in overworld run schedule function tunnel:stage1/smokegap 20
 
 #Barrier to prevent seeing into the past
 fill 2830 22 2758 2873 50 2758 minecraft:black_concrete

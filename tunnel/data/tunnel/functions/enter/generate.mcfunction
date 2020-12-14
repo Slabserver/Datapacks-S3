@@ -29,7 +29,7 @@ execute if score CurrentLevel Tunnel matches 500 run function tunnel:mancave/gen
 #fill 2865 23 2759 2848 44 2787 minecraft:white_stained_glass replace minecraft:barrier
 
 #Track time
-execute unless score TunnelComplete Tunnel matches 1.. run schedule function tunnel:enter/tracktime 1
+execute unless score TunnelComplete Tunnel matches 1.. in overworld run schedule function tunnel:enter/tracktime 1
 
 #Verbosity
 tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:enter/generate' as: "},{"selector":"@s"}]

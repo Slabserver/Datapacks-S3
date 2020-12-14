@@ -16,8 +16,8 @@ setblock 2871 25 2756 minecraft:jukebox[has_record=false]
 
 #Schedule particles, traveller
 function tunnel:stage4/particleportal
-schedule function tunnel:stage4/particletraveller 1180
-schedule function tunnel:stage4/summontraveller 1230
+execute in overworld run schedule function tunnel:stage4/particletraveller 1180
+execute in overworld run schedule function tunnel:stage4/summontraveller 1230
 
 #Verbosity
 tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage4/disc11' as: "},{"selector":"@s"}]
