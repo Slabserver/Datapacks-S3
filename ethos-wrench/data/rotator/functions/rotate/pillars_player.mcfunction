@@ -279,6 +279,13 @@ execute as @s[scores={RotationSuccess=0}, x_rotation=-45..45, y_rotation=-45..45
 execute as @s[scores={RotationSuccess=0}, x_rotation=-45..45, y_rotation=135..-135] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:polished_basalt[axis=z] replace minecraft:polished_basalt
 execute as @s[scores={RotationSuccess=0}, x_rotation=-45..45, y_rotation=45..135] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:polished_basalt[axis=x] replace minecraft:polished_basalt
 execute as @s[scores={RotationSuccess=0}, x_rotation=-45..45, y_rotation=-135..-45] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:polished_basalt[axis=x] replace minecraft:polished_basalt
+#	Deepslate
+execute as @s[scores={RotationSuccess=0}, x_rotation=45..90] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:deepslate[axis=y] replace minecraft:deepslate
+execute as @s[scores={RotationSuccess=0}, x_rotation=-90..-45] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:deepslate[axis=y] replace minecraft:deepslate
+execute as @s[scores={RotationSuccess=0}, x_rotation=-45..45, y_rotation=-45..45] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:deepslate[axis=z] replace minecraft:deepslate
+execute as @s[scores={RotationSuccess=0}, x_rotation=-45..45, y_rotation=135..-135] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:deepslate[axis=z] replace minecraft:deepslate
+execute as @s[scores={RotationSuccess=0}, x_rotation=-45..45, y_rotation=45..135] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:deepslate[axis=x] replace minecraft:deepslate
+execute as @s[scores={RotationSuccess=0}, x_rotation=-45..45, y_rotation=-135..-45] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:deepslate[axis=x] replace minecraft:deepslate
 
 #If failed to rotate, mark for failure
 execute as @s[scores={RotationSuccess=0}] run scoreboard players set @s RotationSuccess -1
