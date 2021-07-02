@@ -20,6 +20,7 @@
 		"minecraft:item_frame",
 		"minecraft:iron_trapdoor",
 		"minecraft:shears",
-		"minecraft:heavy_weighted_pressure_plate"
+		"minecraft:heavy_weighted_pressure_plate",
+		"minecraft:ladder"
 	]
 }

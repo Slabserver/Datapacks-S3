@@ -165,3 +165,7 @@ execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess 
 execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:polished_basalt[axis=z] replace minecraft:polished_basalt[axis=y]
 execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:polished_basalt[axis=y] replace minecraft:polished_basalt[axis=x]
 execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:polished_basalt[axis=x] replace minecraft:polished_basalt[axis=z]
+#	Deepslate
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:deepslate[axis=z] replace minecraft:deepslate[axis=y]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:deepslate[axis=y] replace minecraft:deepslate[axis=x]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:deepslate[axis=x] replace minecraft:deepslate[axis=z]

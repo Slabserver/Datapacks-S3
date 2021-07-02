@@ -181,6 +181,10 @@ execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matche
 execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:polished_basalt[axis=z] replace minecraft:polished_basalt
 execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:polished_basalt[axis=y] replace minecraft:polished_basalt
 execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:polished_basalt[axis=x] replace minecraft:polished_basalt
+#	Deepslate
+execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:deepslate[axis=z] replace minecraft:deepslate
+execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:deepslate[axis=y] replace minecraft:deepslate
+execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:deepslate[axis=x] replace minecraft:deepslate
 
 #If failed to rotate, mark for failure
 execute as @s[scores={RotationSuccess=0}] run scoreboard players set @s RotationSuccess -1
