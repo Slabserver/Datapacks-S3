@@ -10,14 +10,27 @@
                 ],
                 "player": [
                     {
-                        "condition": "entity_scores",
-                        "entity": "this",
-                        "scores": {
-                          "MineDiamond": {
-                            "min": 1,
-                            "max": 2147483647
-                          }
-                        }
+                        "condition": "alternative",
+                        "terms": [
+                            {
+                                "condition": "entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "MineDiamond": {
+                                        "min": 1
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "MineDeepDiamond": {
+                                        "min": 1
+                                    }
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -44,15 +57,28 @@
                 ],
                 "player": [
                     {
-                        "condition": "entity_scores",
-                        "entity": "this",
-                        "scores": {
-                          "MineDiamond": {
-                            "min": 1,
-                            "max": 2147483647
-                          }
-                        }
-                      }
+                        "condition": "alternative",
+                        "terms": [
+                            {
+                                "condition": "entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "MineDiamond": {
+                                        "min": 1
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "MineDeepDiamond": {
+                                        "min": 1
+                                    }
+                                }
+                            }
+                        ]
+                    }
                 ]
             }
         }

@@ -4,6 +4,7 @@ playsound minecraft:block.stone.break voice @a 2853 41 2773
 playsound minecraft:block.water.ambient voice @a 2853 41 2773
 playsound minecraft:block.water.ambient voice @a 2853 41 2773
 playsound minecraft:block.water.ambient voice @a 2853 41 2773
+playsound minecraft:item.bucket.empty voice @a 2853 41 2773
 scoreboard players set NextLevel Tunnel 141
 
 #Verbosity

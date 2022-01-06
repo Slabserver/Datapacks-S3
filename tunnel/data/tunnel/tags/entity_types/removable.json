@@ -10,6 +10,7 @@
     "minecraft:arrow",
     "minecraft:experience_orb",
     "minecraft:item",
-    "minecraft:falling_block"
+    "minecraft:falling_block",
+    "minecraft:minecart"
   ]
 }

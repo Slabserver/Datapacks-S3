@@ -8,7 +8,7 @@
         },
         "icon": {
             "item": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"Etho\"}"
+			"nbt": "{SkullOwner: {Name: \"Etho\", Id: [I; -1816897090, -833665280, -1269317206, -1850493305], Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTY0MTQ5MzI4ODU4MSwKICAicHJvZmlsZUlkIiA6ICI5M2I0NTliZWNlNGY0NzAwYjQ1N2MxYWE5MWIzYjY4NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJFdGhvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZmNzc0N2VhMzQwOTg5Yjk4YTgyMjI5NDhhZjQ1NDU0YmVlOTA5YjlhZDgzMGIyYTAxZGNmOTExN2M4M2EzM2EiCiAgICB9CiAgfQp9\", Signature: \"yKvpcK77dv9cQ3DZ71yWyoQ+Q9V8Ks7R5YC9ARTzxJT8thN4KlQKpHD6pJU6N9LIDZx6z/hnSMS9880//EZhCnuRzKg2jbcoqyY/rqkhTiJ4TjF2LI31mLMwVUGLKlBLJ+izFNMIdwgC3cxsdoi1tCi95eX72my6v4j2ehjtKG6pFQbEB4pg4ondAsaPDXRUhc5ZGT+ZxTTXzPtl4SThP3m6DfCv1LQLJpTOzEESBjgqRk1tLhBdBmd5qeCqNeAvqygAUgdJPwnjNeZNozHp4jiTjYqoui9SYmrnWbZxT2mswyAo4vXR/+uYCfMoFq6Sn+vLveYAWe2Cp8iMwcjCp9uictQnI/4qBuHWq3VY3m3RV4WBaGXO/HUgO1WTTDtbMICo+rhVTTTJWy+T/uLmsL+NWj28zMlQpXfi4Fx9kM3ru3rR4xMZMu82xxNnyMuUPAHhhZusuCYpWxCCXVh9EUnahgMwxRE3rMf2KYRQNbbDTiLRkMUXVI1N1IoQC965FongTbRj18wFZ8Pf/Dfp/8ULNOQJnkgpZDg88bOcWKs0DHVmsOqgYBMn07Re1suQfWTM/asb8jj5zSMJL7N4K0tx96Ihp63bzQNzOTvBBc78wVzdgZQiyBj7JKN+OVAX96RgUpngjRItKkttFpVHBHm71iZLXIQacHaeXcgSEjc=\"}]}}}"
         },
         "frame": "task",
         "show_toast": true,
