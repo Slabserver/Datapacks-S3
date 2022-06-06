@@ -1,7 +1,7 @@
 {
-    "criteria": {
-        "placeButton": {
-            "trigger": "minecraft:placed_block",
+	"criteria": {
+		"placeButton": {
+			"trigger": "minecraft:placed_block",
 			"conditions": {
 				"block": "minecraft:stone_button",
 				"location": {
@@ -22,10 +22,10 @@
 					}
 				}
 			}
-        }
-    },
-    "rewards": {
+		}
+	},
+	"rewards": {
 		"function": "tunnel:stage3/placebutton"
 	},
-    "parent": "tunnel:hidden/root"
+	"parent": "tunnel:hidden/root"
 }

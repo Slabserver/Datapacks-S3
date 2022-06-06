@@ -4,14 +4,14 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-					"nbt": "{Tags:[\"TunnelTraveller\"]}",
-					"type": "minecraft:enderman"
-				}
+                    "nbt": "{Tags:[\"TunnelTraveller\"]}",
+                    "type": "minecraft:enderman"
+                }
             }
         }
     },
     "rewards": {
-		"function": "tunnel:stage4/slaytraveller"
-	},
+        "function": "tunnel:stage4/slaytraveller"
+    },
     "parent": "tunnel:hidden/root"
 }

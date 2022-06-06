@@ -3,14 +3,14 @@
         "eatChorus": {
             "trigger": "minecraft:consume_item",
             "conditions": {
-				"item": {
+                "item": {
                     "item": "minecraft:chorus_fruit"
                 }
             }
         }
     },
     "rewards": {
-		"function": "tunnel:exit/eatchorus"
-	},
+        "function": "tunnel:exit/eatchorus"
+    },
     "parent": "tunnel:hidden/root"
 }

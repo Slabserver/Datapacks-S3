@@ -3,7 +3,7 @@
   "rewards": {
     "recipes": [
       "minecraft:dispenser",
-	  "rcp.dispenser:dispenser"
+      "rcp.dispenser:dispenser"
     ]
   },
   "criteria": {

@@ -7,8 +7,8 @@
     "minecraft:comparator",
     "#minecraft:slabs",
     "#minecraft:stairs",
-	"minecraft:end_rod",
-	"minecraft:piston",
-	"minecraft:sticky_piston"
+    "minecraft:end_rod",
+    "minecraft:piston",
+    "minecraft:sticky_piston"
   ]
 }

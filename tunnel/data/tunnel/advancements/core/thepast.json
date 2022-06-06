@@ -19,23 +19,27 @@
     "criteria": {
         "enterPast": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"dimension": "minecraft:the_end",
-				"position": {
-					"x": {
-						"min": 2857,
-						"max": 2861
-					},
-					"y": {
-						"min": 32,
-						"max": 36
-					},
-					"z": {
-						"min": 2750,
-						"max": 2757
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:the_end",
+                        "position": {
+                            "x": {
+                                "min": 2857,
+                                "max": 2861
+                            },
+                            "y": {
+                                "min": 32,
+                                "max": 36
+                            },
+                            "z": {
+                                "min": 2750,
+                                "max": 2757
+                            }
+                        }
+                    }
+                }
+            }
         }
     },
     "parent": "tunnel:core/theprescient"

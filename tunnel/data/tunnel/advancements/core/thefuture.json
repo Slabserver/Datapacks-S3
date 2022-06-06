@@ -19,23 +19,27 @@
     "criteria": {
         "enterFuture": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"dimension": "minecraft:the_end",
-				"position": {
-					"x": {
-						"min": 2849,
-						"max": 2856
-					},
-					"y": {
-						"min": 33,
-						"max": 34
-					},
-					"z": {
-						"min": 2771,
-						"max": 2775
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:the_end",
+                        "position": {
+                            "x": {
+                                "min": 2849,
+                                "max": 2856
+                            },
+                            "y": {
+                                "min": 33,
+                                "max": 34
+                            },
+                            "z": {
+                                "min": 2771,
+                                "max": 2775
+                            }
+                        }
+                    }
+                }
+            }
         }
     },
     "parent": "tunnel:core/thetunnel"
