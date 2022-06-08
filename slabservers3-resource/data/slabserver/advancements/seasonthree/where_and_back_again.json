@@ -16,43 +16,134 @@
     },
     "criteria": {
         "netherFortress": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "fortress"
+                    }
+                }
+            }
         },
         "endCity": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "endcity"
+                    }
+                }
+            }
         },
         "mineshaft": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "mineshaft"
+                    }
+                }
+            }
         },
         "oceanMonument": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "monument"
+                    }
+                }
+            }
         },
         "stronghold": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "stronghold"
+                    }
+                }
+            }
         },
         "swampHut": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "swamp_hut"
+                    }
+                }
+            }
         },
         "desertPyramid": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "desert_pyramid"
+                    }
+                }
+            }
         },
         "jungleTemple": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "jungle_pyramid"
+                    }
+                }
+            }
         },
         "village": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "village"
+                    }
+                }
+            }
         },
         "pillagerOutpost": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "pillager_outpost"
+                    }
+                }
+            }
         },
         "shipwreck": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "shipwreck"
+                    }
+                }
+            }
         },
         "underwaterRuin": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "ocean_ruin"
+                    }
+                }
+            }
         },
         "bastionRemnant": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structure": "bastion_remnant"
+                    }
+                }
+            }
         },
         "spawn": {
             "trigger": "minecraft:impossible"
