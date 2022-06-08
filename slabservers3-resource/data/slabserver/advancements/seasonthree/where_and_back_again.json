@@ -1,0 +1,65 @@
+{
+    "display": {
+        "title": {
+            "text": "*Where* and Back Again?!"
+        },
+        "description": {
+            "text": "Visit a Desert Pyramid, Jungle Temple, Mineshaft, Ocean Monument, Pillager Outpost, Shipwreck, Stronghold, Swamp Hut, Underwater Ruin, Village, Bastion Remnant, Nether Fortress, and End City, then return to Spawn"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "netherFortress": {
+            "trigger": "minecraft:impossible"
+        },
+        "endCity": {
+            "trigger": "minecraft:impossible"
+        },
+        "mineshaft": {
+            "trigger": "minecraft:impossible"
+        },
+        "oceanMonument": {
+            "trigger": "minecraft:impossible"
+        },
+        "stronghold": {
+            "trigger": "minecraft:impossible"
+        },
+        "swampHut": {
+            "trigger": "minecraft:impossible"
+        },
+        "desertPyramid": {
+            "trigger": "minecraft:impossible"
+        },
+        "jungleTemple": {
+            "trigger": "minecraft:impossible"
+        },
+        "village": {
+            "trigger": "minecraft:impossible"
+        },
+        "pillagerOutpost": {
+            "trigger": "minecraft:impossible"
+        },
+        "shipwreck": {
+            "trigger": "minecraft:impossible"
+        },
+        "underwaterRuin": {
+            "trigger": "minecraft:impossible"
+        },
+        "bastionRemnant": {
+            "trigger": "minecraft:impossible"
+        },
+        "spawn": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "slabserver:alpha/play"
+    },
+    "parent": "slabserver:seasonthree/folklore_freerunning"
+}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Canadian Cliffs"
+        },
+        "description": {
+            "text": "Reach the top of the Etho Statue"
+        },
+        "icon": {
+            "item": "minecraft:ender_pearl"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "climbStatue": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "slabserver:seasonthree/server_rules"
+}

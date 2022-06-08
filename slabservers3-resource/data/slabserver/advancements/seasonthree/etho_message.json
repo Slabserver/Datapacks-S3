@@ -1,0 +1,45 @@
+{
+    "display": {
+        "title": {
+            "text": "Etho's Message"
+        },
+        "description": {
+            "text": "Find Etho's personal message to the community"
+        },
+        "icon": {
+            "item": "minecraft:lectern"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "openLectern": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "block": "minecraft:lectern"
+                    },
+                    "position": {
+                        "x": {
+                            "min": 2843,
+                            "max": 2844
+                        },
+                        "y": {
+                            "min": 31,
+                            "max": 32
+                        },
+                        "z": {
+                            "min": 2779,
+                            "max": 2780
+                        }
+                    },
+                    "dimension": "minecraft:the_end"
+                }
+            }
+        }
+    },
+    "parent": "slabserver:seasonthree/etho_wrench"
+}

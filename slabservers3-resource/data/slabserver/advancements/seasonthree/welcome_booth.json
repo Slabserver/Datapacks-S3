@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Getting Started"
+        },
+        "description": {
+            "text": "Visit the Welcome Booth"
+        },
+        "icon": {
+            "item": "minecraft:book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "enterWelcomeBooth": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "slabserver:seasonthree/root"
+}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "A Resource Full Journey"
+        },
+        "description": {
+            "text": "Harvest your way home from the Resource World"
+        },
+        "icon": {
+            "item": "minecraft:clay"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "summonShulker": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "slabserver:seasonthree/resourceful_journey"
+}

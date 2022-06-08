@@ -1,0 +1,53 @@
+{
+    "display": {
+        "title": {
+            "text": "Social Spawners"
+        },
+        "description": {
+            "text": "Visit the Communal Farms of the World, listed in Town Hall"
+        },
+        "icon": {
+            "item": "minecraft:spawner"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "ironFarm": {
+            "trigger": "minecraft:impossible"
+        },
+        "treeFarm": {
+            "trigger": "minecraft:impossible"
+        },
+        "witchFarm": {
+            "trigger": "minecraft:impossible"
+        },
+        "drownedFarm": {
+            "trigger": "minecraft:impossible"
+        },
+        "endermanFarm": {
+            "trigger": "minecraft:impossible"
+        },
+        "witherSkeletonFarm": {
+            "trigger": "minecraft:impossible"
+        },
+        "blazeFarm": {
+            "trigger": "minecraft:impossible"
+        },
+        "goldFarm": {
+            "trigger": "minecraft:impossible"
+        },
+        "foodMarket": {
+            "trigger": "minecraft:impossible"
+        },
+        "guardianFarm": {
+            "trigger": "minecraft:impossible"
+        },
+        "barteringFarm": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "slabserver:seasonthree/shopping_spree"
+}

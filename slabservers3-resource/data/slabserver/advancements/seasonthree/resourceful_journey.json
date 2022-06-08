@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "A Resourceful Journey"
+        },
+        "description": {
+            "text": "Find the end of the world, and travel beyond it"
+        },
+        "icon": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "summonShulker": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "slabserver:seasonthree/social_spawners"
+}

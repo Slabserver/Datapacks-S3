@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "spawn": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "slabserver:advancements/whereandbackagain"
+    },
+    "parent": "slabserver:hidden/root"
+}

@@ -1,0 +1,1 @@
+execute as @a[advancements={slabserver:seasonthree/through_the_fire_and_friends=false,slabserver:hidden/diamond_gift=true}] at @s if entity @e[type=minecraft:item,distance=..5,nbt={Item:{id:"minecraft:diamond"}},nbt=!{Fire:-1s}] run advancement grant @s only slabserver:seasonthree/through_the_fire_and_friends

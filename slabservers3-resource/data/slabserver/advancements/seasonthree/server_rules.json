@@ -1,0 +1,68 @@
+{
+    "display": {
+        "title": {
+            "text": "Knowledge is Power"
+        },
+        "description": {
+            "text": "Read the server rules"
+        },
+        "icon": {
+            "item": "minecraft:paper"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "openLecternOne": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "block": "minecraft:lectern"
+                    },
+                    "position": {
+                        "x": {
+                            "min": 262,
+                            "max": 263
+                        },
+                        "y": {
+                            "min": 70,
+                            "max": 75
+                        },
+                        "z": {
+                            "min": -9,
+                            "max": -7
+                        }
+                    }
+                }
+            }
+        },
+        "openLecternTwo": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "block": "minecraft:lectern"
+                    },
+                    "position": {
+                        "x": {
+                            "min": 261,
+                            "max": 262
+                        },
+                        "y": {
+                            "min": 70,
+                            "max": 75
+                        },
+                        "z": {
+                            "min": -9,
+                            "max": -7
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "slabserver:seasonthree/welcome_booth"
+}

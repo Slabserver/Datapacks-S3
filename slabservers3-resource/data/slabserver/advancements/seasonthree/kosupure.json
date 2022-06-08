@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Kosupure"
+        },
+        "description": {
+            "text": "Make a Minecraft masquerade"
+        },
+        "icon": {
+            "item": "minecraft:diamond_boots"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "mimicEtho": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "slabserver:seasonthree/etho_message"
+}

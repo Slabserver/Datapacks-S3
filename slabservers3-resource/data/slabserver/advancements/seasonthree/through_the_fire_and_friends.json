@@ -1,0 +1,105 @@
+{
+    "display": {
+        "title": {
+            "text": "Through the Fire and Friends"
+        },
+        "description": {
+            "text": "Mine some blue shiny rocks, throw one at another player, and then the rest in..."
+        },
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "getDiamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond"
+                    }
+                ],
+                "player": [
+                    {
+                        "condition": "alternative",
+                        "terms": [
+                            {
+                                "condition": "entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "MineDiamond": {
+                                        "min": 1
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "MineDeepDiamond": {
+                                        "min": 1
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "giftDiamond": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:diamond"
+                },
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "distance": {
+                                "absolute": {
+                                    "min": 0.01
+                                }
+                            }
+                        },
+                        "entity": "this"
+                    }
+                ],
+                "player": [
+                    {
+                        "condition": "alternative",
+                        "terms": [
+                            {
+                                "condition": "entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "MineDiamond": {
+                                        "min": 1
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "MineDeepDiamond": {
+                                        "min": 1
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "burnDiamond": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "slabserver:seasonthree/walksleeping"
+}

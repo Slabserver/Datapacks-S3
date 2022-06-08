@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "The Prescient",
+            "color": "white"
+        },
+        "description": {
+            "text": "As above, so below",
+            "color": "dark_gray"
+        },
+        "icon": {
+            "item": "minecraft:cracked_stone_bricks"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "enterFloor": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "tunnel:core/thefuture"
+}

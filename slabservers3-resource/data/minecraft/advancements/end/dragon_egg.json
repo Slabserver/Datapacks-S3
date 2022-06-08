@@ -1,0 +1,28 @@
+{
+    "parent": "minecraft:end/kill_dragon",
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_egg"
+        },
+        "title": {
+            "translate": "advancements.end.dragon_egg.title"
+        },
+        "description": {
+            "translate": "Find the Dragon Egg"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dragon_egg": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "dragon_egg"
+        ]
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "Spawntown Sights"
+        },
+        "description": {
+            "text": "Find the Town Hall, Post Office, Slab Museum, & Nether Portal Tree at Spawn"
+        },
+        "icon": {
+            "item": "minecraft:crafting_table"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "enterTownHall": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterMuseum": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterPortal": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterMail": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "slabserver:seasonthree/server_rules"
+}

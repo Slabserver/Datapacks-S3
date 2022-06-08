@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "Confusing Cardinals"
+        },
+        "description": {
+            "text": "Locate each of the Nether Hub tunnels"
+        },
+        "icon": {
+            "item": "minecraft:compass"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "redTunnel": {
+            "trigger": "minecraft:impossible"
+        },
+        "yellowTunnel": {
+            "trigger": "minecraft:impossible"
+        },
+        "blueTunnel": {
+            "trigger": "minecraft:impossible"
+        },
+        "greenTunnel": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "slabserver:seasonthree/fiery_fulcrum"
+}

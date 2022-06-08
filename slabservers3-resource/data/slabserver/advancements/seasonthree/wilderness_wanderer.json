@@ -1,0 +1,108 @@
+{
+    "display": {
+        "title": {
+            "text": "Wilderness Wanderer"
+        },
+        "description": {
+            "text": "Explore the lands surrounding Spawn"
+        },
+        "icon": {
+            "item": "minecraft:filled_map"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "enterPlains": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterForest": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterBirchForest": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterWoodedHills": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterDarkForest": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterSwampland": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterSavanna": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterSavannaPlateau": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterMountains": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterWoodedMountains": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterSnowyTundra": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterSnowyMountains": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterTaiga": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterTaigaHills": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterSnowyTaiga": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterSnowyTaigaHills": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterGiantTreeTaiga": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterGiantTreeTaigaHills": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterDesert": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterDesertHills": {
+            "trigger": "minecraft:impossible"
+        },
+        "enterDesertLakes": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "enterPlains",
+            "enterBirchForest",
+            "enterForest",
+            "enterWoodedHills",
+            "enterDarkForest",
+            "enterSwampland",
+            "enterSavanna",
+            "enterSavannaPlateau",
+            "enterMountains",
+            "enterWoodedMountains",
+            "enterSnowyTundra",
+            "enterSnowyMountains",
+            "enterTaiga",
+            "enterTaigaHills",
+            "enterSnowyTaiga",
+            "enterSnowyTaigaHills",
+            "enterGiantTreeTaiga",
+            "enterGiantTreeTaigaHills",
+            "enterDesert",
+            "enterDesertHills",
+            "enterDesertLakes"
+        ]
+    ],
+    "parent": "slabserver:seasonthree/server_rules"
+}

@@ -1,0 +1,44 @@
+{
+    "criteria": {
+        "netherFortress": {
+            "trigger": "minecraft:impossible"
+        },
+        "endCity": {
+            "trigger": "minecraft:impossible"
+        },
+        "mineshaft": {
+            "trigger": "minecraft:impossible"
+        },
+        "oceanMonument": {
+            "trigger": "minecraft:impossible"
+        },
+        "stronghold": {
+            "trigger": "minecraft:impossible"
+        },
+        "swampHut": {
+            "trigger": "minecraft:impossible"
+        },
+        "desertPyramid": {
+            "trigger": "minecraft:impossible"
+        },
+        "jungleTemple": {
+            "trigger": "minecraft:impossible"
+        },
+        "village": {
+            "trigger": "minecraft:impossible"
+        },
+        "pillagerOutpost": {
+            "trigger": "minecraft:impossible"
+        },
+        "shipwreck": {
+            "trigger": "minecraft:impossible"
+        },
+        "underwaterRuin": {
+            "trigger": "minecraft:impossible"
+        },
+        "bastionRemnant": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "slabserver:hidden/root"
+}

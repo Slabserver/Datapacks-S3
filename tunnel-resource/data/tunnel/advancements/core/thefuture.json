@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "The Future",
+            "color": "white"
+        },
+        "description": {
+            "text": "Go beyond seeing beyond",
+            "color": "dark_gray"
+        },
+        "icon": {
+            "item": "minecraft:mossy_stone_bricks"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "enterFuture": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "tunnel:core/thetunnel"
+}

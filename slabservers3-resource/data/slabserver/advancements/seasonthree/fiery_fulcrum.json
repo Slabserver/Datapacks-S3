@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Fiery Fulcrum"
+        },
+        "description": {
+            "text": "Travel to the community Nether Hub"
+        },
+        "icon": {
+            "item": "minecraft:netherrack"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "enterHub": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "slabserver:seasonthree/server_rules"
+}

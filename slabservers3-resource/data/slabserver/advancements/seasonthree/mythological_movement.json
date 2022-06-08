@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Mythological Movement"
+        },
+        "description": {
+            "text": "Obtain Dragon Wings from the Enderdragon"
+        },
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "obtainWings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:elytra",
+                        "nbt": "{display:{Name:'{\"text\":\"Dragon Wings\"}'}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "slabserver:seasonthree/firm_grip"
+}
