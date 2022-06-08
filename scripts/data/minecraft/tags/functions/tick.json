@@ -1,6 +1,6 @@
 {
-  "replace": false,
-  "values": [
-    "glib:schedule/tick"
-  ]
+    "replace": false,
+    "values": [
+        "glib:schedule/tick"
+    ]
 }

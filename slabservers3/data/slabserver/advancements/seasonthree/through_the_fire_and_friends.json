@@ -19,9 +19,9 @@
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
-					{
-						"item": "minecraft:diamond"
-					}
+                    {
+                        "item": "minecraft:diamond"
+                    }
                 ],
                 "player": [
                     {
@@ -98,8 +98,8 @@
             }
         },
         "burnDiamond": {
-			"trigger":"minecraft:impossible"
-		}
+            "trigger": "minecraft:impossible"
+        }
     },
     "parent": "slabserver:seasonthree/walksleeping"
 }

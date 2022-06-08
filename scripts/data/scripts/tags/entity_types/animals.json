@@ -1,18 +1,18 @@
 {
-	"values": [
-		"minecraft:bee",
-		"minecraft:chicken",
-		"minecraft:cow",
-		"minecraft:mooshroom",
-		"minecraft:pig",
-		"minecraft:rabbit",
-		"minecraft:sheep",
-		"minecraft:parrot",
-		"minecraft:wolf",
-		"minecraft:fox",
-		"minecraft:cat",
-		"minecraft:ocelot",
-		"minecraft:panda",
-		"minecraft:polar_bear"
-	]
+    "values": [
+        "minecraft:bee",
+        "minecraft:chicken",
+        "minecraft:cow",
+        "minecraft:mooshroom",
+        "minecraft:pig",
+        "minecraft:rabbit",
+        "minecraft:sheep",
+        "minecraft:parrot",
+        "minecraft:wolf",
+        "minecraft:fox",
+        "minecraft:cat",
+        "minecraft:ocelot",
+        "minecraft:panda",
+        "minecraft:polar_bear"
+    ]
 }

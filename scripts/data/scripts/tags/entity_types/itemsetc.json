@@ -1,7 +1,7 @@
 {
-	"values": [
-		"minecraft:item",
-		"minecraft:experience_orb",
-		"#minecraft:arrows"
-	]
+    "values": [
+        "minecraft:item",
+        "minecraft:experience_orb",
+        "#minecraft:arrows"
+    ]
 }

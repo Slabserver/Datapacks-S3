@@ -19,10 +19,10 @@
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
-					{
-						"item": "minecraft:carrot_on_a_stick",
-						"nbt": "{RepairCost:385438}"
-					}
+                    {
+                        "item": "minecraft:carrot_on_a_stick",
+                        "nbt": "{RepairCost:385438}"
+                    }
                 ]
             }
         }

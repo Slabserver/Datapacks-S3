@@ -4,25 +4,25 @@
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
-					{
-						"item": "minecraft:player_head",
-						"nbt": "{SkullOwner:{Name:\"Etho\"}}"
-					},
-					{
-						"item": "minecraft:leather_chestplate"
-					},
-					{
-						"item": "minecraft:leather_leggings"
-					},
-					{
-						"item": "minecraft:diamond_boots"
-					}
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner:{Name:\"Etho\"}}"
+                    },
+                    {
+                        "item": "minecraft:leather_chestplate"
+                    },
+                    {
+                        "item": "minecraft:leather_leggings"
+                    },
+                    {
+                        "item": "minecraft:diamond_boots"
+                    }
                 ]
             }
         }
     },
-	"rewards": {
-		"function": "slabserver:advancements/kosupure"
-	},
+    "rewards": {
+        "function": "slabserver:advancements/kosupure"
+    },
     "parent": "slabserver:hidden/root"
 }

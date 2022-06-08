@@ -1,24 +1,24 @@
 {
-  "parent": "rcp:root",
-  "rewards": {
-    "recipes": [
-      "rcp.coral:tube_coral_block",
-      "rcp.coral:brain_coral_block",
-      "rcp.coral:bubble_coral_block",
-      "rcp.coral:fire_coral_block",
-      "rcp.coral:horn_coral_block"
-    ]
-  },
-  "criteria": {
-    "has_coral": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "tag": "rcp.coral:coral_plants"
-          }
+    "parent": "rcp:root",
+    "rewards": {
+        "recipes": [
+            "rcp.coral:tube_coral_block",
+            "rcp.coral:brain_coral_block",
+            "rcp.coral:bubble_coral_block",
+            "rcp.coral:fire_coral_block",
+            "rcp.coral:horn_coral_block"
         ]
-      }
+    },
+    "criteria": {
+        "has_coral": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "rcp.coral:coral_plants"
+                    }
+                ]
+            }
+        }
     }
-  }
 }

@@ -1,7 +1,7 @@
 {
-  "replace": false,
-  "values": [
-    "glib:schedule/tick",
-    "slabserver:advancements/diamondonfire"
-  ]
+    "replace": false,
+    "values": [
+        "glib:schedule/tick",
+        "slabserver:advancements/diamondonfire"
+    ]
 }

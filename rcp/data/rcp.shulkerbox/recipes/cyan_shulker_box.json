@@ -1,21 +1,21 @@
 {
-  "type": "crafting_shapeless",
-  "group": "box",
-  "ingredients": [
-    {
-      "item": "minecraft:cyan_dye"
-    },
-    {
-      "item": "minecraft:shulker_shell"
-    },
-    {
-      "item": "minecraft:chest"
-    },
-    {
-      "item": "minecraft:shulker_shell"
+    "type": "crafting_shapeless",
+    "group": "box",
+    "ingredients": [
+        {
+            "item": "minecraft:cyan_dye"
+        },
+        {
+            "item": "minecraft:shulker_shell"
+        },
+        {
+            "item": "minecraft:chest"
+        },
+        {
+            "item": "minecraft:shulker_shell"
+        }
+    ],
+    "result": {
+        "item": "minecraft:cyan_shulker_box"
     }
-  ],
-  "result": {
-    "item": "minecraft:cyan_shulker_box"
-  }
 }

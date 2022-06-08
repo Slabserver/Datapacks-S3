@@ -1,23 +1,23 @@
 {
-  "parent": "rcp:root",
-  "rewards": {
-    "recipes": [
-      "rcp.minecart:chest_minecart",
-      "rcp.minecart:furnace_minecart",
-      "rcp.minecart:hopper_minecart",
-      "rcp.minecart:tnt_minecart"
-    ]
-  },
-  "criteria": {
-    "has_minecart": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:minecart"
-          }
+    "parent": "rcp:root",
+    "rewards": {
+        "recipes": [
+            "rcp.minecart:chest_minecart",
+            "rcp.minecart:furnace_minecart",
+            "rcp.minecart:hopper_minecart",
+            "rcp.minecart:tnt_minecart"
         ]
-      }
+    },
+    "criteria": {
+        "has_minecart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:minecart"
+                    }
+                ]
+            }
+        }
     }
-  }
 }

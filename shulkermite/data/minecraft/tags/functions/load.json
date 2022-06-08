@@ -1,6 +1,6 @@
 {
-  "replace": false,
-  "values": [
-    "shulkermite:load"
-  ]
+    "replace": false,
+    "values": [
+        "shulkermite:load"
+    ]
 }

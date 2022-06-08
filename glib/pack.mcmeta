@@ -1,6 +1,6 @@
 {
-  "pack": {
-    "pack_format": 10,
-    "description": "GLib: A library datapack"
-  }
+    "pack": {
+        "pack_format": 10,
+        "description": "GLib: A library datapack"
+    }
 }

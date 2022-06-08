@@ -1,7 +1,7 @@
 {
-  "replace": false,
-  "values": [
-    "minecraft:ender_pearl",
-    "minecraft:boat"
-  ]
+    "replace": false,
+    "values": [
+        "minecraft:ender_pearl",
+        "minecraft:boat"
+    ]
 }

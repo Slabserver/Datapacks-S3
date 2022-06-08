@@ -1,19 +1,19 @@
 {
-  "type": "crafting_shaped",
-  "group": "chest_minecart",
-  "pattern": [
-    "A",
-    "B"
-  ],
-  "key": {
-    "A": {
-      "item": "minecraft:chest"
+    "type": "crafting_shaped",
+    "group": "chest_minecart",
+    "pattern": [
+        "A",
+        "B"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:chest"
+        },
+        "B": {
+            "item": "minecraft:minecart"
+        }
     },
-    "B": {
-      "item": "minecraft:minecart"
+    "result": {
+        "item": "minecraft:chest_minecart"
     }
-  },
-  "result": {
-    "item": "minecraft:chest_minecart"
-  }
 }

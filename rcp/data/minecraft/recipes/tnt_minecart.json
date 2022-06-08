@@ -1,19 +1,19 @@
 {
-  "type": "crafting_shaped",
-  "group": "tnt_minecart",
-  "pattern": [
-    "A",
-    "B"
-  ],
-  "key": {
-    "A": {
-      "item": "minecraft:tnt"
+    "type": "crafting_shaped",
+    "group": "tnt_minecart",
+    "pattern": [
+        "A",
+        "B"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:tnt"
+        },
+        "B": {
+            "item": "minecraft:minecart"
+        }
     },
-    "B": {
-      "item": "minecraft:minecart"
+    "result": {
+        "item": "minecraft:tnt_minecart"
     }
-  },
-  "result": {
-    "item": "minecraft:tnt_minecart"
-  }
 }

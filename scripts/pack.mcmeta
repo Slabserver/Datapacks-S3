@@ -1,6 +1,6 @@
 {
-  "pack": {
-    "pack_format": 10,
-    "description": "Slabserver admin/mod scripts"
-  }
+    "pack": {
+        "pack_format": 10,
+        "description": "Slabserver admin/mod scripts"
+    }
 }

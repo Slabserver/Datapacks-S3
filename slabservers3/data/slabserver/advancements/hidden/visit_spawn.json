@@ -2,7 +2,7 @@
     "criteria": {
         "spawn": {
             "trigger": "minecraft:location",
-			"conditions": {
+            "conditions": {
                 "player": {
                     "location": {
                         "dimension": "minecraft:overworld",
@@ -18,11 +18,11 @@
                         }
                     }
                 }
-			}
+            }
         }
     },
-	"rewards": {
-		"function": "slabserver:advancements/whereandbackagain"
-	},
+    "rewards": {
+        "function": "slabserver:advancements/whereandbackagain"
+    },
     "parent": "slabserver:hidden/root"
 }

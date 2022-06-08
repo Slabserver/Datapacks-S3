@@ -1,6 +1,6 @@
 {
-  "replace": false,
-  "values": [
-    "scripts:load"
-  ]
+    "replace": false,
+    "values": [
+        "scripts:load"
+    ]
 }

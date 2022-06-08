@@ -26,7 +26,7 @@
             "trigger": "minecraft:location"
         }
     },
-	"rewards": {
-		"function": "slabserver:misc/team"
-	}
+    "rewards": {
+        "function": "slabserver:misc/team"
+    }
 }

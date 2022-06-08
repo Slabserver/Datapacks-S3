@@ -1,7 +1,7 @@
 {
-  "replace": false,
-  "values": [
-    "slabserver:alpha/trigger",
-    "slabserver:alpha/statue"
-  ]
+    "replace": false,
+    "values": [
+        "slabserver:alpha/trigger",
+        "slabserver:alpha/statue"
+    ]
 }
