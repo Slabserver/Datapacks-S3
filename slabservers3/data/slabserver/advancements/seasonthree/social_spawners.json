@@ -18,19 +18,23 @@
         "ironFarm": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "minecraft:overworld",
-                "position": {
-                    "x": {
-                        "min": 299,
-                        "max": 315
-                    },
-                    "y": {
-                        "min": 75,
-                        "max": 80
-                    },
-                    "z": {
-                        "min": -58,
-                        "max": -40
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:overworld",
+                        "position": {
+                            "x": {
+                                "min": 299,
+                                "max": 315
+                            },
+                            "y": {
+                                "min": 75,
+                                "max": 80
+                            },
+                            "z": {
+                                "min": -58,
+                                "max": -40
+                            }
+                        }
                     }
                 }
             }
@@ -38,19 +42,23 @@
         "treeFarm": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "minecraft:overworld",
-                "position": {
-                    "x": {
-                        "min": -613,
-                        "max": -543
-                    },
-                    "y": {
-                        "min": 62,
-                        "max": 70
-                    },
-                    "z": {
-                        "min": -112,
-                        "max": -40
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:overworld",
+                        "position": {
+                            "x": {
+                                "min": -613,
+                                "max": -543
+                            },
+                            "y": {
+                                "min": 62,
+                                "max": 70
+                            },
+                            "z": {
+                                "min": -112,
+                                "max": -40
+                            }
+                        }
                     }
                 }
             }
@@ -58,19 +66,23 @@
         "witchFarm": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "minecraft:overworld",
-                "position": {
-                    "x": {
-                        "min": -669,
-                        "max": -470
-                    },
-                    "y": {
-                        "min": 5,
-                        "max": 80
-                    },
-                    "z": {
-                        "min": 1370,
-                        "max": 1570
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:overworld",
+                        "position": {
+                            "x": {
+                                "min": -669,
+                                "max": -470
+                            },
+                            "y": {
+                                "min": 5,
+                                "max": 80
+                            },
+                            "z": {
+                                "min": 1370,
+                                "max": 1570
+                            }
+                        }
                     }
                 }
             }
@@ -78,19 +90,23 @@
         "drownedFarm": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "minecraft:overworld",
-                "position": {
-                    "x": {
-                        "min": -384,
-                        "max": -377
-                    },
-                    "y": {
-                        "min": 187,
-                        "max": 196
-                    },
-                    "z": {
-                        "min": 1489,
-                        "max": 1496
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:overworld",
+                        "position": {
+                            "x": {
+                                "min": -384,
+                                "max": -377
+                            },
+                            "y": {
+                                "min": 187,
+                                "max": 196
+                            },
+                            "z": {
+                                "min": 1489,
+                                "max": 1496
+                            }
+                        }
                     }
                 }
             }
@@ -98,19 +114,23 @@
         "endermanFarm": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "minecraft:the_end",
-                "position": {
-                    "x": {
-                        "min": 269,
-                        "max": 277
-                    },
-                    "y": {
-                        "min": 48,
-                        "max": 52
-                    },
-                    "z": {
-                        "min": -5,
-                        "max": 5
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:the_end",
+                        "position": {
+                            "x": {
+                                "min": 269,
+                                "max": 277
+                            },
+                            "y": {
+                                "min": 48,
+                                "max": 52
+                            },
+                            "z": {
+                                "min": -5,
+                                "max": 5
+                            }
+                        }
                     }
                 }
             }
@@ -118,19 +138,23 @@
         "witherSkeletonFarm": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "minecraft:the_nether",
-                "position": {
-                    "x": {
-                        "min": -161,
-                        "max": -120
-                    },
-                    "y": {
-                        "min": 52,
-                        "max": 55
-                    },
-                    "z": {
-                        "min": 193,
-                        "max": 213
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:the_nether",
+                        "position": {
+                            "x": {
+                                "min": -161,
+                                "max": -120
+                            },
+                            "y": {
+                                "min": 52,
+                                "max": 55
+                            },
+                            "z": {
+                                "min": 193,
+                                "max": 213
+                            }
+                        }
                     }
                 }
             }
@@ -138,19 +162,23 @@
         "blazeFarm": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "minecraft:the_nether",
-                "position": {
-                    "x": {
-                        "min": 149,
-                        "max": 165
-                    },
-                    "y": {
-                        "min": 58,
-                        "max": 67
-                    },
-                    "z": {
-                        "min": 161,
-                        "max": 177
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:the_nether",
+                        "position": {
+                            "x": {
+                                "min": 149,
+                                "max": 165
+                            },
+                            "y": {
+                                "min": 58,
+                                "max": 67
+                            },
+                            "z": {
+                                "min": 161,
+                                "max": 177
+                            }
+                        }
                     }
                 }
             }
@@ -158,19 +186,23 @@
         "goldFarm": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "minecraft:the_nether",
-                "position": {
-                    "x": {
-                        "min": 222,
-                        "max": 247
-                    },
-                    "y": {
-                        "min": 223,
-                        "max": 229
-                    },
-                    "z": {
-                        "min": 170,
-                        "max": 178
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:the_nether",
+                        "position": {
+                            "x": {
+                                "min": 222,
+                                "max": 247
+                            },
+                            "y": {
+                                "min": 223,
+                                "max": 229
+                            },
+                            "z": {
+                                "min": 170,
+                                "max": 178
+                            }
+                        }
                     }
                 }
             }
@@ -178,19 +210,23 @@
         "foodMarket": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "minecraft:overworld",
-                "position": {
-                    "x": {
-                        "min": 552,
-                        "max": 579
-                    },
-                    "y": {
-                        "min": 58,
-                        "max": 76
-                    },
-                    "z": {
-                        "min": 204,
-                        "max": 238
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:overworld",
+                        "position": {
+                            "x": {
+                                "min": 552,
+                                "max": 579
+                            },
+                            "y": {
+                                "min": 58,
+                                "max": 76
+                            },
+                            "z": {
+                                "min": 204,
+                                "max": 238
+                            }
+                        }
                     }
                 }
             }
@@ -198,19 +234,23 @@
         "guardianFarm": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "minecraft:overworld",
-                "position": {
-                    "x": {
-                        "min": 705,
-                        "max": 766
-                    },
-                    "y": {
-                        "min": 16,
-                        "max": 72
-                    },
-                    "z": {
-                        "min": -255,
-                        "max": -194
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:overworld",
+                        "position": {
+                            "x": {
+                                "min": 705,
+                                "max": 766
+                            },
+                            "y": {
+                                "min": 16,
+                                "max": 72
+                            },
+                            "z": {
+                                "min": -255,
+                                "max": -194
+                            }
+                        }
                     }
                 }
             }
@@ -218,19 +258,23 @@
         "barteringFarm": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "minecraft:the_nether",
-                "position": {
-                    "x": {
-                        "min": 1010,
-                        "max": 1050
-                    },
-                    "y": {
-                        "min": 145,
-                        "max": 253
-                    },
-                    "z": {
-                        "min": 468,
-                        "max": 514
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:the_nether",
+                        "position": {
+                            "x": {
+                                "min": 1010,
+                                "max": 1050
+                            },
+                            "y": {
+                                "min": 145,
+                                "max": 253
+                            },
+                            "z": {
+                                "min": 468,
+                                "max": 514
+                            }
+                        }
                     }
                 }
             }

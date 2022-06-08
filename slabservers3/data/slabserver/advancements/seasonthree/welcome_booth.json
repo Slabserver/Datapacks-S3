@@ -18,19 +18,23 @@
         "enterWelcomeBooth": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "minecraft:overworld",
-				"position": {
-                    "x": {
-                        "min": 251,
-                        "max": 272
-                    },
-                    "y": {
-                        "min": 70,
-                        "max": 78
-                    },
-                    "z": {
-                        "min": -31,
-                        "max": -10
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:overworld",
+                        "position": {
+                            "x": {
+                                "min": 251,
+                                "max": 272
+                            },
+                            "y": {
+                                "min": 70,
+                                "max": 78
+                            },
+                            "z": {
+                                "min": -31,
+                                "max": -10
+                            }
+                        }
                     }
                 }
             }

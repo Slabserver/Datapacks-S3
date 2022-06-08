@@ -18,19 +18,23 @@
         "climbStatue": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "minecraft:overworld",
-                "position": {
-                    "x": {
-                        "min": 257,
-                        "max": 266
-                    },
-                    "y": {
-                        "min": 127,
-                        "max": 132
-                    },
-                    "z": {
-                        "min": -25,
-                        "max": -16
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:overworld",
+                        "position": {
+                            "x": {
+                                "min": 257,
+                                "max": 266
+                            },
+                            "y": {
+                                "min": 127,
+                                "max": 132
+                            },
+                            "z": {
+                                "min": -25,
+                                "max": -16
+                            }
+                        }
                     }
                 }
             }

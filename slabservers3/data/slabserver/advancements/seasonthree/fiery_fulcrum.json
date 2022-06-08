@@ -18,19 +18,23 @@
         "enterHub": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "minecraft:the_nether",
-                "position": {
-                    "x": {
-                        "min": -14,
-                        "max": 120
-                    },
-                    "y": {
-                        "min": 95,
-                        "max": 128
-                    },
-                    "z": {
-                        "min": -23,
-                        "max": 23
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:the_nether",
+                        "position": {
+                            "x": {
+                                "min": -14,
+                                "max": 120
+                            },
+                            "y": {
+                                "min": 95,
+                                "max": 128
+                            },
+                            "z": {
+                                "min": -23,
+                                "max": 23
+                            }
+                        }
                     }
                 }
             }

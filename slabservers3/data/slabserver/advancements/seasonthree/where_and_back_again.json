@@ -18,87 +18,139 @@
         "netherFortress": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "fortress"
+                "player": {
+                    "location": {
+                        "structure": "fortress"
+                    }
+                }
             }
         },
         "endCity": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "endcity"
+                "player": {
+                    "location": {
+                        "structure": "endcity"
+                    }
+                }
             }
         },
         "mineshaft": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "mineshaft"
+                "player": {
+                    "location": {
+                        "structure": "mineshaft"
+                    }
+                }
             }
         },
         "oceanMonument": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "monument"
+                "player": {
+                    "location": {
+                        "structure": "monument"
+                    }
+                }
             }
         },
         "stronghold": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "stronghold"
+                "player": {
+                    "location": {
+                        "structure": "stronghold"
+                    }
+                }
             }
         },
         "swampHut": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "swamp_hut"
+                "player": {
+                    "location": {
+                        "structure": "swamp_hut"
+                    }
+                }
             }
         },
         "desertPyramid": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "desert_pyramid"
+                "player": {
+                    "location": {
+                        "structure": "desert_pyramid"
+                    }
+                }
             }
         },
         "jungleTemple": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "jungle_pyramid"
+                "player": {
+                    "location": {
+                        "structure": "jungle_pyramid"
+                    }
+                }
             }
         },
         "village": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "village"
+                "player": {
+                    "location": {
+                        "structure": "village"
+                    }
+                }
             }
         },
         "pillagerOutpost": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "pillager_outpost"
+                "player": {
+                    "location": {
+                        "structure": "pillager_outpost"
+                    }
+                }
             }
         },
         "shipwreck": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "shipwreck"
+                "player": {
+                    "location": {
+                        "structure": "shipwreck"
+                    }
+                }
             }
         },
         "underwaterRuin": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "ocean_ruin"
+                "player": {
+                    "location": {
+                        "structure": "ocean_ruin"
+                    }
+                }
             }
         },
         "bastionRemnant": {
             "trigger": "minecraft:location",
             "conditions": {
-                "feature": "bastion_remnant"
+                "player": {
+                    "location": {
+                        "structure": "bastion_remnant"
+                    }
+                }
             }
         },
         "spawn": {
             "trigger": "minecraft:impossible"
         }
     },
-	"rewards": {
-		"function": "slabserver:alpha/play"
-	},
+    "rewards": {
+        "function": "slabserver:alpha/play"
+    },
     "parent": "slabserver:seasonthree/folklore_freerunning"
 }

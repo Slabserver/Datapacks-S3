@@ -18,19 +18,23 @@
         "redTunnel": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "minecraft:the_nether",
-                "position": {
-                    "x": {
-                        "min": -20,
-                        "max": -13
-                    },
-                    "y": {
-                        "min": 110,
-                        "max": 120
-                    },
-                    "z": {
-                        "min": -2,
-                        "max": 2
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:the_nether",
+                        "position": {
+                            "x": {
+                                "min": -20,
+                                "max": -13
+                            },
+                            "y": {
+                                "min": 110,
+                                "max": 120
+                            },
+                            "z": {
+                                "min": -2,
+                                "max": 2
+                            }
+                        }
                     }
                 }
             }
@@ -38,19 +42,23 @@
         "yellowTunnel": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "minecraft:the_nether",
-                "position": {
-                    "x": {
-                        "min": -2,
-                        "max": 2
-                    },
-                    "y": {
-                        "min": 110,
-                        "max": 120
-                    },
-                    "z": {
-                        "min": 16,
-                        "max": 23
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:the_nether",
+                        "position": {
+                            "x": {
+                                "min": -2,
+                                "max": 2
+                            },
+                            "y": {
+                                "min": 110,
+                                "max": 120
+                            },
+                            "z": {
+                                "min": 16,
+                                "max": 23
+                            }
+                        }
                     }
                 }
             }
@@ -58,19 +66,23 @@
         "blueTunnel": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "minecraft:the_nether",
-                "position": {
-                    "x": {
-                        "min": -2,
-                        "max": 2
-                    },
-                    "y": {
-                        "min": 110,
-                        "max": 120
-                    },
-                    "z": {
-                        "min": -23,
-                        "max": -16
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:the_nether",
+                        "position": {
+                            "x": {
+                                "min": -2,
+                                "max": 2
+                            },
+                            "y": {
+                                "min": 110,
+                                "max": 120
+                            },
+                            "z": {
+                                "min": -23,
+                                "max": -16
+                            }
+                        }
                     }
                 }
             }
@@ -78,19 +90,23 @@
         "greenTunnel": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "minecraft:the_nether",
-                "position": {
-                    "x": {
-                        "min": 119,
-                        "max": 126
-                    },
-                    "y": {
-                        "min": 110,
-                        "max": 120
-                    },
-                    "z": {
-                        "min": -2,
-                        "max": 2
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:the_nether",
+                        "position": {
+                            "x": {
+                                "min": 119,
+                                "max": 126
+                            },
+                            "y": {
+                                "min": 110,
+                                "max": 120
+                            },
+                            "z": {
+                                "min": -2,
+                                "max": 2
+                            }
+                        }
                     }
                 }
             }

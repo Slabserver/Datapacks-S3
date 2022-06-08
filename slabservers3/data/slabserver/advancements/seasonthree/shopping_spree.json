@@ -18,19 +18,23 @@
         "enterShopping": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "minecraft:mushroom_fields",
-                "position": {
-                    "x": {
-                        "min": 530,
-                        "max": 970
-                    },
-                    "y": {
-                        "min": 0,
-                        "max": 255
-                    },
-                    "z": {
-                        "min": -115,
-                        "max": 140
+                "player": {
+                    "location": {
+                        "biome": "minecraft:mushroom_fields",
+                        "position": {
+                            "x": {
+                                "min": 530,
+                                "max": 970
+                            },
+                            "y": {
+                                "min": 0,
+                                "max": 255
+                            },
+                            "z": {
+                                "min": -115,
+                                "max": 140
+                            }
+                        }
                     }
                 }
             }

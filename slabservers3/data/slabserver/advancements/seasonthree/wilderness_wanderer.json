@@ -18,177 +18,238 @@
         "enterPlains": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "plains"
+                "player": {
+                    "location": {
+                        "biome": "plains"
+                    }
                 }
             }
         },
         "enterForest": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "forest"
+                "player": {
+                    "location": {
+                        "biome": "forest"
+                    }
                 }
             }
         },
         "enterBirchForest": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "birch_forest"
+                "player": {
+                    "location": {
+                        "biome": "birch_forest"
+                    }
                 }
             }
         },
         "enterWoodedHills": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "wooded_hills"
+                "player": {
+                    "location": {
+                        "biome": "wooded_hills"
+                    }
                 }
             }
         },
         "enterDarkForest": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "dark_forest"
+                "player": {
+                    "location": {
+                        "biome": "dark_forest"
+                    }
                 }
             }
         },
         "enterSwampland": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "swamp"
+                "player": {
+                    "location": {
+                        "biome": "swamp"
+                    }
                 }
             }
         },
         "enterSavanna": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "savanna"
+                "player": {
+                    "location": {
+                        "biome": "savanna"
+                    }
                 }
             }
         },
         "enterSavannaPlateau": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "savanna_plateau"
+                "player": {
+                    "location": {
+                        "biome": "savanna_plateau"
+                    }
                 }
             }
         },
         "enterMountains": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "mountains"
+                "player": {
+                    "location": {
+                        "biome": "mountains"
+                    }
                 }
             }
         },
         "enterWoodedMountains": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "wooded_mountains"
+                "player": {
+                    "location": {
+                        "biome": "wooded_mountains"
+                    }
                 }
             }
         },
         "enterSnowyTundra": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "snowy_tundra"
+                "player": {
+                    "location": {
+                        "biome": "snowy_tundra"
+                    }
                 }
             }
         },
         "enterSnowyMountains": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "snowy_mountains"
+                "player": {
+                    "location": {
+                        "biome": "snowy_mountains"
+                    }
                 }
             }
         },
         "enterTaiga": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "taiga"
+                "player": {
+                    "location": {
+                        "biome": "taiga"
+                    }
                 }
             }
         },
         "enterTaigaHills": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "taiga_hills"
+                "player": {
+                    "location": {
+                        "biome": "taiga_hills"
+                    }
                 }
             }
         },
         "enterSnowyTaiga": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "snowy_taiga"
+                "player": {
+                    "location": {
+                        "biome": "snowy_taiga"
+                    }
                 }
             }
         },
         "enterSnowyTaigaHills": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "snowy_taiga_hills"
+                "player": {
+                    "location": {
+                        "biome": "snowy_taiga_hills"
+                    }
                 }
             }
         },
         "enterGiantTreeTaiga": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "giant_tree_taiga"
+                "player": {
+                    "location": {
+                        "biome": "giant_tree_taiga"
+                    }
                 }
             }
         },
         "enterGiantTreeTaigaHills": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "giant_tree_taiga_hills"
+                "player": {
+                    "location": {
+                        "biome": "giant_tree_taiga_hills"
+                    }
                 }
             }
         },
         "enterDesert": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "desert"
+                "player": {
+                    "location": {
+                        "biome": "desert"
+                    }
                 }
             }
         },
         "enterDesertHills": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "desert_hills"
+                "player": {
+                    "location": {
+                        "biome": "desert_hills"
+                    }
                 }
             }
         },
         "enterDesertLakes": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "biome": "desert_lakes"
+                "player": {
+                    "location": {
+                        "biome": "desert_lakes"
+                    }
                 }
             }
         }
     },
     "requirements": [
-        ["enterPlains", "enterBirchForest", "enterForest", "enterWoodedHills", "enterDarkForest", "enterSwampland", "enterSavanna", "enterSavannaPlateau", "enterMountains", "enterWoodedMountains",
-        "enterSnowyTundra", "enterSnowyMountains", "enterTaiga", "enterTaigaHills", "enterSnowyTaiga", "enterSnowyTaigaHills", "enterGiantTreeTaiga", "enterGiantTreeTaigaHills", "enterDesert", 
-        "enterDesertHills", "enterDesertLakes"]
-
-	],
+        [
+            "enterPlains",
+            "enterBirchForest",
+            "enterForest",
+            "enterWoodedHills",
+            "enterDarkForest",
+            "enterSwampland",
+            "enterSavanna",
+            "enterSavannaPlateau",
+            "enterMountains",
+            "enterWoodedMountains",
+            "enterSnowyTundra",
+            "enterSnowyMountains",
+            "enterTaiga",
+            "enterTaigaHills",
+            "enterSnowyTaiga",
+            "enterSnowyTaigaHills",
+            "enterGiantTreeTaiga",
+            "enterGiantTreeTaigaHills",
+            "enterDesert",
+            "enterDesertHills",
+            "enterDesertLakes"
+        ]
+    ],
     "parent": "slabserver:seasonthree/server_rules"
 }

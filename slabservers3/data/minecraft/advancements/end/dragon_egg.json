@@ -1,45 +1,49 @@
 {
-  "parent": "minecraft:end/kill_dragon",
-  "display": {
-    "icon": {
-      "item": "minecraft:dragon_egg"
+    "parent": "minecraft:end/kill_dragon",
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_egg"
+        },
+        "title": {
+            "translate": "advancements.end.dragon_egg.title"
+        },
+        "description": {
+            "translate": "Find the Dragon Egg"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
     },
-    "title": {
-      "translate": "advancements.end.dragon_egg.title"
-    },
-    "description": {
-      "translate": "Find the Dragon Egg"
-    },
-    "frame": "goal",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "dragon_egg": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "dimension": "minecraft:overworld",
-        "position": {
-            "x": {
-                "min": 248,
-                "max": 270
-            },
-            "y": {
-                "min": 43,
-                "max": 50
-            },
-            "z": {
-                "min": -127,
-                "max": -112
+    "criteria": {
+        "dragon_egg": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:overworld",
+                        "position": {
+                            "x": {
+                                "min": 248,
+                                "max": 270
+                            },
+                            "y": {
+                                "min": 43,
+                                "max": 50
+                            },
+                            "z": {
+                                "min": -127,
+                                "max": -112
+                            }
+                        }
+                    }
+                }
             }
         }
-    }
-    }
-  },
-  "requirements": [
-    [
-      "dragon_egg"
+    },
+    "requirements": [
+        [
+            "dragon_egg"
+        ]
     ]
-  ]
 }
