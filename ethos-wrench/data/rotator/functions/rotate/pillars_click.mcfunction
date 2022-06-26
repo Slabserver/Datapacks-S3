@@ -236,5 +236,20 @@ execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matche
 execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:muddy_mangrove_roots[axis=y] replace minecraft:muddy_mangrove_roots
 execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:muddy_mangrove_roots[axis=x] replace minecraft:muddy_mangrove_roots
 
+#Ochre froglight
+execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:ochre_froglight[axis=z] replace minecraft:ochre_froglight
+execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:ochre_froglight[axis=y] replace minecraft:ochre_froglight
+execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:ochre_froglight[axis=x] replace minecraft:ochre_froglight
+
+#Pearlescent froglight
+execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pearlescent_froglight[axis=z] replace minecraft:pearlescent_froglight
+execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pearlescent_froglight[axis=y] replace minecraft:pearlescent_froglight
+execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pearlescent_froglight[axis=x] replace minecraft:pearlescent_froglight
+
+#Verdant froglight
+execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:verdant_froglight[axis=z] replace minecraft:verdant_froglight
+execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:verdant_froglight[axis=y] replace minecraft:verdant_froglight
+execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:verdant_froglight[axis=x] replace minecraft:verdant_froglight
+
 #If failed to rotate, mark for failure
 execute as @s[scores={RotationSuccess=0}] run scoreboard players set @s RotationSuccess -1

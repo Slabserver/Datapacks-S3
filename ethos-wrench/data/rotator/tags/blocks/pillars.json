@@ -9,6 +9,9 @@
         "minecraft:basalt",
         "minecraft:polished_basalt",
         "minecraft:deepslate",
-        "minecraft:muddy_mangrove_roots"
+        "minecraft:muddy_mangrove_roots",
+        "minecraft:ochre_froglight",
+        "minecraft:pearlescent_froglight",
+        "minecraft:verdant_froglight"
     ]
 }

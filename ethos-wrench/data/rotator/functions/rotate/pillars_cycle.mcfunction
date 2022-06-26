@@ -220,3 +220,17 @@ execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess 
 execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:muddy_mangrove_roots[axis=y] replace minecraft:muddy_mangrove_roots[axis=x]
 execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:muddy_mangrove_roots[axis=x] replace minecraft:muddy_mangrove_roots[axis=z]
 
+#Ochre froglight
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:ochre_froglight[axis=z] replace minecraft:ochre_froglight[axis=y]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:ochre_froglight[axis=y] replace minecraft:ochre_froglight[axis=x]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:ochre_froglight[axis=x] replace minecraft:ochre_froglight[axis=z]
+
+#Pearlescent froglight
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pearlescent_froglight[axis=z] replace minecraft:pearlescent_froglight[axis=y]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pearlescent_froglight[axis=y] replace minecraft:pearlescent_froglight[axis=x]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:pearlescent_froglight[axis=x] replace minecraft:pearlescent_froglight[axis=z]
+
+#Verdant froglight
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:verdant_froglight[axis=z] replace minecraft:verdant_froglight[axis=y]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:verdant_froglight[axis=y] replace minecraft:verdant_froglight[axis=x]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:verdant_froglight[axis=x] replace minecraft:verdant_froglight[axis=z]
