@@ -1,11 +1,11 @@
 #Generate hint loot
 
-execute if score CurrentLevel Tunnel matches 110 at @e[type=ender_dragon,limit=1] run loot spawn ~ ~ ~ loot tunnel:hint_lost
-execute if score CurrentLevel Tunnel matches 120..161 at @e[type=ender_dragon,limit=1] run loot spawn ~ ~ ~ loot tunnel:hint_finding
-execute if score CurrentLevel Tunnel matches 210..261 at @e[type=ender_dragon,limit=1] run loot spawn ~ ~ ~ loot tunnel:hint_future
-execute if score CurrentLevel Tunnel matches 310..351 at @e[type=ender_dragon,limit=1] run loot spawn ~ ~ ~ loot tunnel:hint_prescient
-execute if score CurrentLevel Tunnel matches 360..361 at @e[type=ender_dragon,limit=1] run loot spawn ~ ~ ~ loot tunnel:hint_loop
-execute if score CurrentLevel Tunnel matches 410 at @e[type=ender_dragon,limit=1] run loot spawn ~ ~ ~ loot tunnel:hint_past
+execute if score CurrentLevel Tunnel matches 110 run function tunnel:hints/hint_lost
+execute if score CurrentLevel Tunnel matches 120..161 run function tunnel:hints/hint_finding
+execute if score CurrentLevel Tunnel matches 210..261 run function tunnel:hints/hint_future
+execute if score CurrentLevel Tunnel matches 310..351 run function tunnel:hints/hint_prescient
+execute if score CurrentLevel Tunnel matches 360..361 run function tunnel:hints/hint_loop
+execute if score CurrentLevel Tunnel matches 410 run function tunnel:hints/hint_past
 
 advancement revoke @s only tunnel:hidden/slaydragon
 

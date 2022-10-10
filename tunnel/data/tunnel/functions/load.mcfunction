@@ -6,6 +6,7 @@ scoreboard objectives add TunnelOccupant dummy
 scoreboard objectives add TunnelLevel dummy
 scoreboard objectives add TunnelTime dummy
 scoreboard objectives add TunnelLogout minecraft.custom:minecraft.leave_game
+scoreboard objectives add TunnelHints dummy
 
 function tunnel:chunkload
 execute unless score CurrentLevel Tunnel matches 10.. run function tunnel:restart
