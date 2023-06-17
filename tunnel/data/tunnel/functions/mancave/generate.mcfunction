@@ -10,7 +10,7 @@ setblock 2859 34 2779 minecraft:redstone_block
 setblock 2843 32 2779 minecraft:redstone_block
 execute positioned 2835.5 33.0 2769.5 run function tunnel:mancave/summonjeff
 summon minecraft:item_frame 2859.50 35.50 2762.03 {Invulnerable:1b, Facing: 3b, Item: {id: "minecraft:spruce_door", Count: 1b, tag: {display: {Name: '{"text":"Exit"}'}}}, ItemDropChance: 1.0f, Fire: -1s, TileY: 35, TileX: 2859, TileZ: 2762, Tags: ["TunnelFrame"]}
-execute if score EnableRestarts Tunnel matches 1 run setblock 2859 35 2764 minecraft:oak_wall_sign[facing=north]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"execute if score EnableRestarts Tunnel matches 1 run function tunnel:restart"}}',Text2:'{"text":"Click to","clickEvent":{"action":"run_command","value":"setblock ~ ~ ~ minecraft:air"},"bold":true}',Text3:'{"text":"restart Tunnel","bold":true}'}
+execute if score EnableRestarts Tunnel matches 1 run setblock 2859 35 2764 minecraft:oak_wall_sign[facing=north]{front_text: {messages: ['{"text":"","clickEvent":{"action":"run_command","value":"execute if score EnableRestarts Tunnel matches 1 run function tunnel:restart"}}','{"text":"Click to","clickEvent":{"action":"run_command","value":"setblock ~ ~ ~ minecraft:air"},"bold":true}','{"text":"restart Tunnel","bold":true}','{"text":""}']}}
 
 #Check to break wall
 execute in overworld run schedule function tunnel:mancave/wall 10
