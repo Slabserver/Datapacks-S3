@@ -16,52 +16,10 @@
     },
     "criteria": {
         "openLecternOne": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": {
-                    "block": {
-                        "block": "minecraft:lectern"
-                    },
-                    "position": {
-                        "x": {
-                            "min": 262,
-                            "max": 263
-                        },
-                        "y": {
-                            "min": 70,
-                            "max": 75
-                        },
-                        "z": {
-                            "min": -9,
-                            "max": -7
-                        }
-                    }
-                }
-            }
+            "trigger": "minecraft:impossible"
         },
         "openLecternTwo": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": {
-                    "block": {
-                        "block": "minecraft:lectern"
-                    },
-                    "position": {
-                        "x": {
-                            "min": 261,
-                            "max": 262
-                        },
-                        "y": {
-                            "min": 70,
-                            "max": 75
-                        },
-                        "z": {
-                            "min": -9,
-                            "max": -7
-                        }
-                    }
-                }
-            }
+            "trigger": "minecraft:impossible"
         }
     },
     "parent": "slabserver:seasonthree/welcome_booth"

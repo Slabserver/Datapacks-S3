@@ -18,26 +18,31 @@
         "openLectern": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
-                "location": {
-                    "block": {
-                        "block": "minecraft:lectern"
-                    },
-                    "position": {
-                        "x": {
-                            "min": 2843,
-                            "max": 2844
-                        },
-                        "y": {
-                            "min": 31,
-                            "max": 32
-                        },
-                        "z": {
-                            "min": 2779,
-                            "max": 2780
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "block": "minecraft:lectern"
+                            },
+                            "position": {
+                                "x": {
+                                    "min": 2843,
+                                    "max": 2844
+                                },
+                                "y": {
+                                    "min": 31,
+                                    "max": 32
+                                },
+                                "z": {
+                                    "min": 2779,
+                                    "max": 2780
+                                }
+                            },
+                            "dimension": "minecraft:the_end"
                         }
-                    },
-                    "dimension": "minecraft:the_end"
-                }
+                    }
+                ]
             }
         }
     },

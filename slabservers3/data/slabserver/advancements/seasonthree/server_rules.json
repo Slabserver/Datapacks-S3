@@ -18,49 +18,59 @@
         "openLecternOne": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
-                "location": {
-                    "block": {
-                        "block": "minecraft:lectern"
-                    },
-                    "position": {
-                        "x": {
-                            "min": 262,
-                            "max": 263
-                        },
-                        "y": {
-                            "min": 70,
-                            "max": 75
-                        },
-                        "z": {
-                            "min": -9,
-                            "max": -7
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "block": "minecraft:lectern"
+                            },
+                            "position": {
+                                "x": {
+                                    "min": 262,
+                                    "max": 263
+                                },
+                                "y": {
+                                    "min": 70,
+                                    "max": 75
+                                },
+                                "z": {
+                                    "min": -9,
+                                    "max": -7
+                                }
+                            }
                         }
                     }
-                }
+                ]
             }
         },
         "openLecternTwo": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
-                "location": {
-                    "block": {
-                        "block": "minecraft:lectern"
-                    },
-                    "position": {
-                        "x": {
-                            "min": 261,
-                            "max": 262
-                        },
-                        "y": {
-                            "min": 70,
-                            "max": 75
-                        },
-                        "z": {
-                            "min": -9,
-                            "max": -7
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "block": "minecraft:lectern"
+                            },
+                            "position": {
+                                "x": {
+                                    "min": 261,
+                                    "max": 262
+                                },
+                                "y": {
+                                    "min": 70,
+                                    "max": 75
+                                },
+                                "z": {
+                                    "min": -9,
+                                    "max": -7
+                                }
+                            }
                         }
                     }
-                }
+                ]
             }
         }
     },

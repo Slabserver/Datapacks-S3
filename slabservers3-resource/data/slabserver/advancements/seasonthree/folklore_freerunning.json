@@ -25,44 +25,10 @@
             "trigger": "minecraft:impossible"
         },
         "markVictoryLantern": {
-            "trigger": "minecraft:placed_block",
-            "conditions": {
-                "block": "minecraft:soul_lantern",
-                "position": {
-                    "x": {
-                        "min": 258,
-                        "max": 307
-                    },
-                    "y": {
-                        "min": 53,
-                        "max": 65
-                    },
-                    "z": {
-                        "min": -150,
-                        "max": -98
-                    }
-                }
-            }
+            "trigger": "minecraft:impossible"
         },
         "markVictorySign": {
-            "trigger": "minecraft:placed_block",
-            "conditions": {
-                "block": "minecraft:warped_wall_sign",
-                "position": {
-                    "x": {
-                        "min": 258,
-                        "max": 307
-                    },
-                    "y": {
-                        "min": 53,
-                        "max": 65
-                    },
-                    "z": {
-                        "min": -150,
-                        "max": -98
-                    }
-                }
-            }
+            "trigger": "minecraft:impossible"
         }
     },
     "parent": "slabserver:seasonthree/through_the_fire_and_friends"

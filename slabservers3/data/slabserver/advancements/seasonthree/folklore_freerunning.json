@@ -91,40 +91,54 @@
             "trigger": "minecraft:placed_block",
             "conditions": {
                 "block": "minecraft:soul_lantern",
-                "position": {
-                    "x": {
-                        "min": 258,
-                        "max": 307
-                    },
-                    "y": {
-                        "min": 53,
-                        "max": 65
-                    },
-                    "z": {
-                        "min": -150,
-                        "max": -98
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "position": {
+                                "x": {
+                                    "min": 258,
+                                    "max": 307
+                                },
+                                "y": {
+                                    "min": 53,
+                                    "max": 65
+                                },
+                                "z": {
+                                    "min": -150,
+                                    "max": -98
+                                }
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "markVictorySign": {
             "trigger": "minecraft:placed_block",
             "conditions": {
                 "block": "minecraft:warped_wall_sign",
-                "position": {
-                    "x": {
-                        "min": 258,
-                        "max": 307
-                    },
-                    "y": {
-                        "min": 53,
-                        "max": 65
-                    },
-                    "z": {
-                        "min": -150,
-                        "max": -98
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "position": {
+                                "x": {
+                                    "min": 258,
+                                    "max": 307
+                                },
+                                "y": {
+                                    "min": 53,
+                                    "max": 65
+                                },
+                                "z": {
+                                    "min": -150,
+                                    "max": -98
+                                }
+                            }
+                        }
                     }
-                }
+                ]
             }
         }
     },
