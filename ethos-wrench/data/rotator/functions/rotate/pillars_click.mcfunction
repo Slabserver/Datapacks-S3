@@ -156,6 +156,36 @@ execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matche
 execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_mangrove_wood[axis=y] replace minecraft:stripped_mangrove_wood
 execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_mangrove_wood[axis=x] replace minecraft:stripped_mangrove_wood
 
+#Cherry log
+execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:cherry_log[axis=z] replace minecraft:cherry_log
+execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:cherry_log[axis=y] replace minecraft:cherry_log
+execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:cherry_log[axis=x] replace minecraft:cherry_log
+
+#Stripped cherry log
+execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_cherry_log[axis=z] replace minecraft:stripped_cherry_log
+execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_cherry_log[axis=y] replace minecraft:stripped_cherry_log
+execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_cherry_log[axis=x] replace minecraft:stripped_cherry_log
+
+#Cherry wood
+execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:cherry_wood[axis=z] replace minecraft:cherry_wood
+execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:cherry_wood[axis=y] replace minecraft:cherry_wood
+execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:cherry_wood[axis=x] replace minecraft:cherry_wood
+
+#Stripped cherry wood
+execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_cherry_wood[axis=z] replace minecraft:stripped_cherry_wood
+execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_cherry_wood[axis=y] replace minecraft:stripped_cherry_wood
+execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_cherry_wood[axis=x] replace minecraft:stripped_cherry_wood
+
+#Bamboo block
+execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:bamboo_block[axis=z] replace minecraft:bamboo_block
+execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:bamboo_block[axis=y] replace minecraft:bamboo_block
+execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:bamboo_block[axis=x] replace minecraft:bamboo_block
+
+#Stripped bamboo block
+execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_bamboo_block[axis=z] replace minecraft:stripped_bamboo_block
+execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_bamboo_block[axis=y] replace minecraft:stripped_bamboo_block
+execute as @s[scores={RotationSuccess=0}] unless score px RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_bamboo_block[axis=x] replace minecraft:stripped_bamboo_block
+
 #Crimson stem
 execute as @s[scores={RotationSuccess=0}] unless score pz RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crimson_stem[axis=z] replace minecraft:crimson_stem
 execute as @s[scores={RotationSuccess=0}] unless score py RotationRaycast matches 1..14 store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crimson_stem[axis=y] replace minecraft:crimson_stem

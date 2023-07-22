@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
         "#minecraft:logs",
+        "#minecraft:bamboo_blocks",
         "minecraft:quartz_pillar",
         "minecraft:purpur_pillar",
         "minecraft:hay_block",

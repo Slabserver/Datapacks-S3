@@ -140,6 +140,36 @@ execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess 
 execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_mangrove_wood[axis=y] replace minecraft:stripped_mangrove_wood[axis=x]
 execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_mangrove_wood[axis=x] replace minecraft:stripped_mangrove_wood[axis=z]
 
+#Cherry log
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:cherry_log[axis=z] replace minecraft:cherry_log[axis=y]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:cherry_log[axis=y] replace minecraft:cherry_log[axis=x]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:cherry_log[axis=x] replace minecraft:cherry_log[axis=z]
+
+#Stripped cherry log
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_cherry_log[axis=z] replace minecraft:stripped_cherry_log[axis=y]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_cherry_log[axis=y] replace minecraft:stripped_cherry_log[axis=x]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_cherry_log[axis=x] replace minecraft:stripped_cherry_log[axis=z]
+
+#Cherry wood
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:cherry_wood[axis=z] replace minecraft:cherry_wood[axis=y]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:cherry_wood[axis=y] replace minecraft:cherry_wood[axis=x]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:cherry_wood[axis=x] replace minecraft:cherry_wood[axis=z]
+
+#Stripped cherry wood
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_cherry_wood[axis=z] replace minecraft:stripped_cherry_wood[axis=y]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_cherry_wood[axis=y] replace minecraft:stripped_cherry_wood[axis=x]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_cherry_wood[axis=x] replace minecraft:stripped_cherry_wood[axis=z]
+
+#Bamboo block
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:bamboo_block[axis=z] replace minecraft:bamboo_block[axis=y]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:bamboo_block[axis=y] replace minecraft:bamboo_block[axis=x]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:bamboo_block[axis=x] replace minecraft:bamboo_block[axis=z]
+
+#Stripped bamboo block
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_bamboo_block[axis=z] replace minecraft:stripped_bamboo_block[axis=y]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_bamboo_block[axis=y] replace minecraft:stripped_bamboo_block[axis=x]
+execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:stripped_bamboo_block[axis=x] replace minecraft:stripped_bamboo_block[axis=z]
+
 #Crimson stem
 execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crimson_stem[axis=z] replace minecraft:crimson_stem[axis=y]
 execute as @s[scores={RotationSuccess=0}] store result score @s RotationSuccess run fill ~ ~ ~ ~ ~ ~ minecraft:crimson_stem[axis=y] replace minecraft:crimson_stem[axis=x]
