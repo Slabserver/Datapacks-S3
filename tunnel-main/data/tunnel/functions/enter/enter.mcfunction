@@ -4,10 +4,10 @@
 #	Note: Blindness is removed whenever the player enters water, to avoid MC-4647
 gamemode adventure @s
 effect clear @s
+execute unless score CurrentLevel Tunnel matches 500 run effect give @s minecraft:hunger 100 255 true
 effect give @s minecraft:water_breathing 1000000 0 true
 effect give @s minecraft:resistance 1000000 5 true
 effect give @s minecraft:instant_health 20 0 true
-effect give @s minecraft:hunger 100 255 true
 effect give @s minecraft:blindness 32 1 true
 effect give @s minecraft:slow_falling 2 1 true
 execute in overworld run schedule function tunnel:enter/giveblindness 2
