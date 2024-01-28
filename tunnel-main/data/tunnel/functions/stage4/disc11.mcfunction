@@ -11,9 +11,6 @@ scoreboard players set CurrentLevel Tunnel 420
 scoreboard players set NextLevel Tunnel 410
 tp @a[scores={TunnelOccupant=1..}] 2859 33 2771 0 0
 
-#Remove disc from jukebox
-setblock 2871 25 2756 minecraft:jukebox[has_record=false]
-
 #Schedule particles, traveller
 function tunnel:stage4/particleportal
 execute in overworld run schedule function tunnel:stage4/particletraveller 1180
