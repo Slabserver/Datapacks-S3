@@ -14,4 +14,4 @@ execute if score CurrentLevel Tunnel matches 330..350 run setblock 2855 24 2772 
 execute if score CurrentLevel Tunnel matches 310..340 run scoreboard players operation NextLevel Tunnel = CurrentLevel Tunnel
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage3/futuresystemdeactivates' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage3/futuresystemdeactivates' as: "},{"selector":"@s"}]

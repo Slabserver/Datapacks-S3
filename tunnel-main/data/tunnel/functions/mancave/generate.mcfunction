@@ -17,4 +17,4 @@ execute in overworld run schedule function tunnel:mancave/wall 10
 execute in overworld run schedule function tunnel:mancave/itemframe 10
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:mancave/generate' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:mancave/generate' as: "},{"selector":"@s"}]

@@ -7,4 +7,4 @@ execute in overworld run schedule function tunnel:stage4/complete 200
 advancement revoke @s only tunnel:hidden/slaytraveller
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage4/slaytraveller' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage4/slaytraveller' as: "},{"selector":"@s"}]

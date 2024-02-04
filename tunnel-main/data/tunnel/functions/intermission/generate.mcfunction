@@ -14,4 +14,4 @@ summon minecraft:item_frame 2859.50 35.50 2770.03 {Invulnerable:1b, Facing: 3b, 
 execute in overworld run schedule function tunnel:intermission/itemframe 10
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:intermission/generate' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:intermission/generate' as: "},{"selector":"@s"}]

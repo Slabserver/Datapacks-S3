@@ -10,4 +10,4 @@ execute if score CurrentLevel Tunnel matches 410 run function tunnel:hints/hint_
 advancement revoke @s only tunnel:hidden/slaydragon
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:hints/genloot' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:hints/genloot' as: "},{"selector":"@s"}]

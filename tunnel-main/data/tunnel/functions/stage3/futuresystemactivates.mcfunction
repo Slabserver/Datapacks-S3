@@ -16,4 +16,4 @@ execute if score CurrentLevel Tunnel matches 310..340 run scoreboard players ope
 execute if score CurrentLevel Tunnel matches 310..340 run scoreboard players add NextLevel Tunnel 10
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage3/futuresystemactivates' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage3/futuresystemactivates' as: "},{"selector":"@s"}]

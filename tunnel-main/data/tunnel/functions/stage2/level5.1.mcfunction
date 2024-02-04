@@ -6,4 +6,4 @@ scoreboard players set CurrentLevel Tunnel 251
 scoreboard players set NextLevel Tunnel 310
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage2/level5.1' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage2/level5.1' as: "},{"selector":"@s"}]

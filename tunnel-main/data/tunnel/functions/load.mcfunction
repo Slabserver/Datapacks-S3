@@ -12,4 +12,4 @@ function tunnel:chunkload
 execute unless score CurrentLevel Tunnel matches 10.. run function tunnel:restart
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:load' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:load' as: "},{"selector":"@s"}]

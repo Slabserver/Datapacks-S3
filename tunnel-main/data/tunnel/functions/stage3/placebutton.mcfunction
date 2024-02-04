@@ -10,4 +10,4 @@ function tunnel:stage3/buttontntcart
 advancement revoke @s only tunnel:hidden/placebutton
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage3/placebutton' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage3/placebutton' as: "},{"selector":"@s"}]

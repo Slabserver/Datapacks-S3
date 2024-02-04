@@ -8,4 +8,4 @@ execute if score CurrentLevel Tunnel matches 210..261 run data modify entity @e[
 scoreboard players operation CurrentLevel Tunnel = NextLevel Tunnel
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:exit/evaluate' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:exit/evaluate' as: "},{"selector":"@s"}]

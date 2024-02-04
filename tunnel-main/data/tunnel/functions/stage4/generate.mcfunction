@@ -20,4 +20,4 @@ execute in overworld run schedule function tunnel:stage4/pastbarrier 100
 function tunnel:stage4/mazebarrier
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage4/generate' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage4/generate' as: "},{"selector":"@s"}]

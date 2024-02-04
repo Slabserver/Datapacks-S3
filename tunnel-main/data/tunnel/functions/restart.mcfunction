@@ -6,4 +6,4 @@ scoreboard players reset * TunnelOccupant
 scoreboard players reset * TunnelHints
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:restart' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:restart' as: "},{"selector":"@s"}]

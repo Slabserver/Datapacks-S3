@@ -11,4 +11,4 @@ execute as @a[scores={TunnelOccupant=1..}] at @s run playsound minecraft:entity.
 execute as @a[scores={TunnelOccupant=1..}] at @s run playsound minecraft:entity.wither.death voice @s ~ ~ ~ 0.65 2 1
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage3/loopbreaks' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage3/loopbreaks' as: "},{"selector":"@s"}]

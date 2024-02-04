@@ -3,4 +3,4 @@ execute as @e[type=minecraft:enderman,tag=TunnelTraveller] at @s anchored eyes f
 execute if entity @e[tag=TunnelTraveller] in overworld run schedule function tunnel:stage4/travellerstares 1
 
 #Verbosity
-tellraw @a[tag=TunnelDebug] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage4/travellerstares' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelDebug] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage4/travellerstares' as: "},{"selector":"@s"}]

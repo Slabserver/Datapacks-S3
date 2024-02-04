@@ -10,4 +10,4 @@ execute in the_end if score Masks Tunnel matches 10.. run function tunnel:mancav
 execute unless score Masks Tunnel matches 10.. if entity @a[scores={TunnelOccupant=1..}] in overworld run schedule function tunnel:mancave/wall 10
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:mancave/wall' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:mancave/wall' as: "},{"selector":"@s"}]

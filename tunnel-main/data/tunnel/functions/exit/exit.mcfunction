@@ -15,4 +15,4 @@ advancement revoke @s only tunnel:hidden/exittunnel
 advancement revoke @s only tunnel:hidden/blindleap
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:exit/exit' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:exit/exit' as: "},{"selector":"@s"}]

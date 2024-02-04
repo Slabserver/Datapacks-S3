@@ -4,4 +4,4 @@ playsound minecraft:block.beacon.ambient voice @a 2871.5 25.5 2756.5 0.6
 execute if score CurrentLevel Tunnel matches 410 if entity @a[scores={TunnelOccupant=1..}] in overworld run schedule function tunnel:stage4/ambientdoor 10
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage4/ambientdoor' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage4/ambientdoor' as: "},{"selector":"@s"}]

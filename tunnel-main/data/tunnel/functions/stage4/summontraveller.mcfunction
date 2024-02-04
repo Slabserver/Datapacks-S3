@@ -3,4 +3,4 @@ execute in the_end run summon minecraft:enderman 2858 33 2773 {Tags:["TunnelTrav
 function tunnel:stage4/travellerstares
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage4/summontraveller' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage4/summontraveller' as: "},{"selector":"@s"}]

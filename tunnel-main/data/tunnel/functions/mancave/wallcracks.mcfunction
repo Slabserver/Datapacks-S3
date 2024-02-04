@@ -13,4 +13,4 @@ execute if score Masks Tunnel matches 9 run setblock 2857 33 2777 minecraft:crac
 execute if score Masks Tunnel > MasksOld Tunnel run playsound minecraft:block.stone.break voice @a 2858 34 2777
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:mancave/wallcracks' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:mancave/wallcracks' as: "},{"selector":"@s"}]

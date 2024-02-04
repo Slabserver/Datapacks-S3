@@ -6,4 +6,4 @@ execute unless score @s TunnelOccupant matches 1.. unless entity @s[gamemode=!ad
 advancement revoke @s only tunnel:hidden/denyaccess
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:exit/denyaccess' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:exit/denyaccess' as: "},{"selector":"@s"}]

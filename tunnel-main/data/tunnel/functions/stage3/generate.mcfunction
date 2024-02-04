@@ -25,4 +25,4 @@ execute if score CurrentLevel Tunnel matches 360 run function tunnel:stage3/leve
 execute in overworld run schedule function tunnel:stage3/railcheck 10
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage3/generate' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage3/generate' as: "},{"selector":"@s"}]

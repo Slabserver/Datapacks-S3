@@ -32,4 +32,4 @@ execute if score CurrentLevel Tunnel matches 500 run function tunnel:mancave/gen
 execute unless score TunnelComplete Tunnel matches 1.. in overworld run schedule function tunnel:enter/tracktime 1
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:enter/generate' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:enter/generate' as: "},{"selector":"@s"}]

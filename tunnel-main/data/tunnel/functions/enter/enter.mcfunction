@@ -29,4 +29,4 @@ execute if score EnableRestarts Tunnel matches 1 in overworld run schedule funct
 execute in the_end run function #tunnel:entrance
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:enter/enter' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:enter/enter' as: "},{"selector":"@s"}]

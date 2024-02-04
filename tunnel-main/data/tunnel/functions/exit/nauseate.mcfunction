@@ -17,4 +17,4 @@ execute as @a[scores={TunnelOccupant=1..}] at @s run playsound minecraft:ambient
 execute in overworld run schedule function tunnel:exit/kickall 100
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:exit/nauseate' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:exit/nauseate' as: "},{"selector":"@s"}]

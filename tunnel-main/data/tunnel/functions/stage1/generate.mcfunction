@@ -26,4 +26,4 @@ execute if score CurrentLevel Tunnel matches 151 run function tunnel:stage1/leve
 execute if score CurrentLevel Tunnel matches 161 run function tunnel:stage1/level6.1
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage1/generate' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage1/generate' as: "},{"selector":"@s"}]

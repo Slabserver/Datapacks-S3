@@ -6,4 +6,4 @@ summon minecraft:falling_block 2851 41 2774 {DropItem:0b,Motion:[0.0, -0.5, 0.0]
 execute in overworld run schedule function tunnel:stage2/grillbreaks1 15
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage2/grillbreaks' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage2/grillbreaks' as: "},{"selector":"@s"}]

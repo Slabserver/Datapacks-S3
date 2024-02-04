@@ -11,4 +11,4 @@ execute if score CurrentLevel Tunnel matches 340..350 run setblock 2860 24 2772 
 execute if score CurrentLevel Tunnel matches 340..350 run setblock 2858 24 2771 minecraft:air
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage3/presentsystemdeactivates' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage3/presentsystemdeactivates' as: "},{"selector":"@s"}]

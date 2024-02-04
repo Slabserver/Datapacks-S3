@@ -7,4 +7,4 @@ execute if entity @s[nbt={FallFlying:0b}] run particle minecraft:squid_ink ~ ~ ~
 advancement revoke @s only tunnel:hidden/squidleap
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:enter/squidleap' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:enter/squidleap' as: "},{"selector":"@s"}]

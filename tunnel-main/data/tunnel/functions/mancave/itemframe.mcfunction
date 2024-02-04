@@ -3,4 +3,4 @@ execute as @e[tag=TunnelFrame,nbt=!{ItemRotation:0b}] at @s run function tunnel:
 execute if entity @a[scores={TunnelOccupant=1..}] in overworld run schedule function tunnel:mancave/itemframe 10
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:mancave/itemframe' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:mancave/itemframe' as: "},{"selector":"@s"}]

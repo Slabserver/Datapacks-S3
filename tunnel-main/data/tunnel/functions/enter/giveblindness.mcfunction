@@ -20,4 +20,4 @@ execute in minecraft:the_end positioned 2829 21 2735 run kill @e[dx=44,dy=31,dz=
 execute if entity @a[scores={TunnelOccupant=1..}] in overworld run schedule function tunnel:enter/giveblindness 1
 
 #Verbosity
-tellraw @a[tag=TunnelDebug] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:enter/giveblindness' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelDebug] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:enter/giveblindness' as: "},{"selector":"@s"}]

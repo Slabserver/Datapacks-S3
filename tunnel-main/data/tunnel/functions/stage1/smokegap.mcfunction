@@ -4,4 +4,4 @@ execute in the_end run particle minecraft:smoke 2857.44 43.00 2773.38 0 0 2 0 50
 execute if entity @a[scores={TunnelOccupant=1..}] in overworld run schedule function tunnel:stage1/smokegap 10
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage1/smokegap' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage1/smokegap' as: "},{"selector":"@s"}]

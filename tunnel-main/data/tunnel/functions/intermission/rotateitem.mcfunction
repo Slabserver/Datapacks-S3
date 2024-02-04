@@ -5,4 +5,4 @@ scoreboard players set CurrentLevel Tunnel 110
 scoreboard players set NextLevel Tunnel 110
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:intermission/rotateitem' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:intermission/rotateitem' as: "},{"selector":"@s"}]

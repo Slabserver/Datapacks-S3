@@ -4,4 +4,4 @@ execute in the_end if block 2856 27 2773 minecraft:stone_button[powered=true] ru
 execute in the_end if block 2856 27 2773 minecraft:stone_button[powered=false] in overworld run schedule function tunnel:stage3/buttontntcart 10
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage3/buttontntcart' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage3/buttontntcart' as: "},{"selector":"@s"}]

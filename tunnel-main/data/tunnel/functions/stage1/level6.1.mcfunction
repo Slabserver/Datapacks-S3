@@ -8,4 +8,4 @@ scoreboard players set NextLevel Tunnel 210
 execute in overworld run schedule function tunnel:stage1/doorfalls 20
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage1/level6.1' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage1/level6.1' as: "},{"selector":"@s"}]

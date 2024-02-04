@@ -7,4 +7,4 @@ execute unless entity @a[tag=TunnelPast] run scoreboard players set MazeComplete
 tag @a remove TunnelPast
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage4/mazecomplete' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage4/mazecomplete' as: "},{"selector":"@s"}]

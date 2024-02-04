@@ -5,4 +5,4 @@ execute in the_end run summon minecraft:minecart 2856 24 2773 {Motion:[-0.5, 0.0
 execute in overworld run schedule function tunnel:stage3/tntcart1 15
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage3/tntcart' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage3/tntcart' as: "},{"selector":"@s"}]

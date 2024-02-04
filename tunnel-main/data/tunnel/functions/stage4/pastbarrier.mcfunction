@@ -5,4 +5,4 @@ execute in minecraft:the_end positioned 2859 34 2762 if entity @a[dz=0,y_rotatio
 execute if score CurrentLevel Tunnel matches 410 in overworld run schedule function tunnel:stage4/pastbarrier 1
 
 #Verbosity
-tellraw @a[tag=TunnelDebug] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage4/pastbarrier' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelDebug] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage4/pastbarrier' as: "},{"selector":"@s"}]

@@ -28,4 +28,4 @@ execute if score CurrentLevel Tunnel matches 251 run function tunnel:stage2/leve
 execute if score CurrentLevel Tunnel matches 220.. run data modify block 2859 41 2776 Items set from entity @e[type=chest_minecart,tag=TunnelStorageEntity,limit=1] Items
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage2/generate' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage2/generate' as: "},{"selector":"@s"}]

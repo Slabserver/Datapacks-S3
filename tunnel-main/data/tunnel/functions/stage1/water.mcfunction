@@ -8,4 +8,4 @@ playsound minecraft:item.bucket.empty voice @a 2853 41 2773
 scoreboard players set NextLevel Tunnel 141
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage1/water' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage1/water' as: "},{"selector":"@s"}]

@@ -5,4 +5,4 @@ advancement revoke @s only tunnel:hidden/exitgateway
 execute in overworld run schedule function tunnel:exit/eatchorus1 1
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:exit/eatchorus' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:exit/eatchorus' as: "},{"selector":"@s"}]

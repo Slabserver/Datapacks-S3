@@ -8,4 +8,4 @@ playsound minecraft:ambient.underwater.loop.additions.rare voice @a 2857.5 25.5 
 execute if score CurrentLevel Tunnel matches 310..350 if entity @a[scores={TunnelOccupant=1..}] in overworld run schedule function tunnel:stage3/ambientlevel 500
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage3/ambientlevel' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage3/ambientlevel' as: "},{"selector":"@s"}]

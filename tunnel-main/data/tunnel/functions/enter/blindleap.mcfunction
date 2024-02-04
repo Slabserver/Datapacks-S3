@@ -26,4 +26,4 @@ execute if entity @s[y=-30,dy=-100,scores={Tunnel=0}] in minecraft:the_end run f
 advancement revoke @s only tunnel:hidden/blindleap
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:enter/blindleap' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:enter/blindleap' as: "},{"selector":"@s"}]

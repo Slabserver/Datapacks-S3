@@ -6,4 +6,4 @@ execute as @a[tag=TunnelTnt] at @s run playsound minecraft:entity.generic.explod
 tag @a remove TunnelTnt
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage3/tntcart1' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage3/tntcart1' as: "},{"selector":"@s"}]

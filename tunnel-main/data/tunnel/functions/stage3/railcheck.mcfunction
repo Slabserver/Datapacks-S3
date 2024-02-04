@@ -14,4 +14,4 @@ execute if score CurrentLevel Tunnel matches 310..350 in minecraft:the_end if bl
 execute if score CurrentLevel Tunnel matches 310..350 if entity @a[scores={TunnelOccupant=1..}] in overworld run schedule function tunnel:stage3/railcheck 10
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage3/railcheck' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage3/railcheck' as: "},{"selector":"@s"}]

@@ -26,4 +26,4 @@ execute in the_end run tp @s 100.0 49.0 0.0
 #kill @e[tag=VarTp]
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:exit/respawn' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:exit/respawn' as: "},{"selector":"@s"}]

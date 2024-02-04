@@ -8,4 +8,4 @@ execute in the_end run particle minecraft:enchant 2857.5 34.5 2773.5 1 0 0 0.5 5
 execute in the_end run particle minecraft:portal 2857.5 33.5 2773.5 1 0 0 0.5 50 force
 
 #Verbosity
-tellraw @a[tag=TunnelVerbose] [{"text":"","italic":"true","color":"gray"},{"text":"Executed 'tunnel:stage4/particleexits' as: "},{"selector":"@s"}]
+tellraw @a[tag=TunnelVerbose] [{"text":"","italic":true,"color":"gray"},{"text":"Executed 'tunnel:stage4/particleexits' as: "},{"selector":"@s"}]
